@@ -1,0 +1,1 @@
+void *Munch2(void *);
