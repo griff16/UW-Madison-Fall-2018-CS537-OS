@@ -1,0 +1,4519 @@
+target to be added:all
+graphNode[0]:all
+!!!!!!
+strlen(prog1) = 5, strlen(all)=119
+target:prog1, graph_nodes[0]->target:all
+strcmp=0
+strlen(prog2) = 5, strlen(all)=119
+target:prog2, graph_nodes[0]->target:all
+strcmp=0
+strlen(prog2) = 5, strlen(prog1)=0
+target:prog2, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(prog3) = 5, strlen(all)=119
+target:prog3, graph_nodes[0]->target:all
+strcmp=0
+strlen(prog3) = 5, strlen(prog1)=0
+target:prog3, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(prog3) = 5, strlen(prog2)=0
+target:prog3, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(prog1) = 5, strlen(all)=119
+target:prog1, graph_nodes[0]->target:all
+strcmp=0
+strlen(prog1) = 5, strlen(prog1)=0
+target:prog1, graph_nodes[1]->target:prog1
+strcmp=1
+target to be added:prog1
+graphNode[1]:prog1
+!!!!!!
+strlen(main1.o) = 7, strlen(all)=119
+target:main1.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(main1.o) = 7, strlen(prog1)=0
+target:main1.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main1.o) = 7, strlen(prog2)=0
+target:main1.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main1.o) = 7, strlen(prog3)=0
+target:main1.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.o) = 7, strlen(all)=119
+target:queue.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.o) = 7, strlen(prog1)=0
+target:queue.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.o) = 7, strlen(prog2)=0
+target:queue.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.o) = 7, strlen(prog3)=0
+target:queue.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.o) = 7, strlen(main1.o)=0
+target:queue.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(reader.o) = 8, strlen(all)=119
+target:reader.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(reader.o) = 8, strlen(prog1)=0
+target:reader.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(reader.o) = 8, strlen(prog2)=0
+target:reader.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(reader.o) = 8, strlen(prog3)=0
+target:reader.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(reader.o) = 8, strlen(main1.o)=0
+target:reader.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(reader.o) = 8, strlen(queue.o)=0
+target:reader.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(writer.o) = 8, strlen(all)=119
+target:writer.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(writer.o) = 8, strlen(prog1)=0
+target:writer.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(writer.o) = 8, strlen(prog2)=0
+target:writer.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(writer.o) = 8, strlen(prog3)=0
+target:writer.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(writer.o) = 8, strlen(main1.o)=0
+target:writer.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(writer.o) = 8, strlen(queue.o)=0
+target:writer.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(writer.o) = 8, strlen(reader.o)=0
+target:writer.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(prog2) = 5, strlen(all)=119
+target:prog2, graph_nodes[0]->target:all
+strcmp=0
+strlen(prog2) = 5, strlen(prog1)=0
+target:prog2, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(prog2) = 5, strlen(prog2)=0
+target:prog2, graph_nodes[2]->target:prog2
+strcmp=1
+target to be added:prog2
+graphNode[2]:prog2
+!!!!!!
+strlen(main2.o) = 7, strlen(all)=119
+target:main2.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(main2.o) = 7, strlen(prog1)=0
+target:main2.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main2.o) = 7, strlen(prog2)=0
+target:main2.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main2.o) = 7, strlen(prog3)=0
+target:main2.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main2.o) = 7, strlen(main1.o)=0
+target:main2.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main2.o) = 7, strlen(queue.o)=0
+target:main2.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main2.o) = 7, strlen(reader.o)=0
+target:main2.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main2.o) = 7, strlen(writer.o)=0
+target:main2.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(queue.o) = 7, strlen(all)=119
+target:queue.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.o) = 7, strlen(prog1)=0
+target:queue.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.o) = 7, strlen(prog2)=0
+target:queue.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.o) = 7, strlen(prog3)=0
+target:queue.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.o) = 7, strlen(main1.o)=0
+target:queue.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.o) = 7, strlen(queue.o)=0
+target:queue.o, graph_nodes[5]->target:queue.o
+strcmp=1
+strlen(reader.o) = 8, strlen(all)=119
+target:reader.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(reader.o) = 8, strlen(prog1)=0
+target:reader.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(reader.o) = 8, strlen(prog2)=0
+target:reader.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(reader.o) = 8, strlen(prog3)=0
+target:reader.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(reader.o) = 8, strlen(main1.o)=0
+target:reader.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(reader.o) = 8, strlen(queue.o)=0
+target:reader.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(reader.o) = 8, strlen(reader.o)=0
+target:reader.o, graph_nodes[6]->target:reader.o
+strcmp=1
+strlen(parser.o) = 8, strlen(all)=119
+target:parser.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(parser.o) = 8, strlen(prog1)=0
+target:parser.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(parser.o) = 8, strlen(prog2)=0
+target:parser.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(parser.o) = 8, strlen(prog3)=0
+target:parser.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(parser.o) = 8, strlen(main1.o)=0
+target:parser.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(parser.o) = 8, strlen(queue.o)=0
+target:parser.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(parser.o) = 8, strlen(reader.o)=0
+target:parser.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(parser.o) = 8, strlen(writer.o)=0
+target:parser.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(parser.o) = 8, strlen(main2.o)=0
+target:parser.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(prog3) = 5, strlen(all)=119
+target:prog3, graph_nodes[0]->target:all
+strcmp=0
+strlen(prog3) = 5, strlen(prog1)=0
+target:prog3, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(prog3) = 5, strlen(prog2)=0
+target:prog3, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(prog3) = 5, strlen(prog3)=0
+target:prog3, graph_nodes[3]->target:prog3
+strcmp=1
+target to be added:prog3
+graphNode[3]:prog3
+!!!!!!
+strlen(main3.o) = 7, strlen(all)=119
+target:main3.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(main3.o) = 7, strlen(prog1)=0
+target:main3.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main3.o) = 7, strlen(prog2)=0
+target:main3.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main3.o) = 7, strlen(prog3)=0
+target:main3.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main3.o) = 7, strlen(main1.o)=0
+target:main3.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main3.o) = 7, strlen(queue.o)=0
+target:main3.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main3.o) = 7, strlen(reader.o)=0
+target:main3.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main3.o) = 7, strlen(writer.o)=0
+target:main3.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main3.o) = 7, strlen(main2.o)=0
+target:main3.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(main3.o) = 7, strlen(parser.o)=0
+target:main3.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process1.o) = 10, strlen(all)=119
+target:process1.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(process1.o) = 10, strlen(prog1)=0
+target:process1.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process1.o) = 10, strlen(prog2)=0
+target:process1.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process1.o) = 10, strlen(prog3)=0
+target:process1.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process1.o) = 10, strlen(main1.o)=0
+target:process1.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process1.o) = 10, strlen(queue.o)=0
+target:process1.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process1.o) = 10, strlen(reader.o)=0
+target:process1.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process1.o) = 10, strlen(writer.o)=0
+target:process1.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process1.o) = 10, strlen(main2.o)=0
+target:process1.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process1.o) = 10, strlen(parser.o)=0
+target:process1.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process1.o) = 10, strlen(main3.o)=0
+target:process1.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process2.o) = 10, strlen(all)=119
+target:process2.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(process2.o) = 10, strlen(prog1)=0
+target:process2.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process2.o) = 10, strlen(prog2)=0
+target:process2.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process2.o) = 10, strlen(prog3)=0
+target:process2.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process2.o) = 10, strlen(main1.o)=0
+target:process2.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process2.o) = 10, strlen(queue.o)=0
+target:process2.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process2.o) = 10, strlen(reader.o)=0
+target:process2.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process2.o) = 10, strlen(writer.o)=0
+target:process2.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process2.o) = 10, strlen(main2.o)=0
+target:process2.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process2.o) = 10, strlen(parser.o)=0
+target:process2.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process2.o) = 10, strlen(main3.o)=0
+target:process2.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process2.o) = 10, strlen(process1.o)=0
+target:process2.o, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.o) = 7, strlen(all)=119
+target:graph.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.o) = 7, strlen(prog1)=0
+target:graph.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.o) = 7, strlen(prog2)=0
+target:graph.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.o) = 7, strlen(prog3)=0
+target:graph.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.o) = 7, strlen(main1.o)=0
+target:graph.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.o) = 7, strlen(queue.o)=0
+target:graph.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.o) = 7, strlen(reader.o)=0
+target:graph.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.o) = 7, strlen(writer.o)=0
+target:graph.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.o) = 7, strlen(main2.o)=0
+target:graph.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.o) = 7, strlen(parser.o)=0
+target:graph.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.o) = 7, strlen(main3.o)=0
+target:graph.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.o) = 7, strlen(process1.o)=0
+target:graph.o, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.o) = 7, strlen(process2.o)=0
+target:graph.o, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(all)=119
+target:djikstra.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(djikstra.o) = 10, strlen(prog1)=0
+target:djikstra.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(djikstra.o) = 10, strlen(prog2)=0
+target:djikstra.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(djikstra.o) = 10, strlen(prog3)=0
+target:djikstra.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(djikstra.o) = 10, strlen(main1.o)=0
+target:djikstra.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(queue.o)=0
+target:djikstra.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(reader.o)=0
+target:djikstra.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(writer.o)=0
+target:djikstra.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(main2.o)=0
+target:djikstra.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(parser.o)=0
+target:djikstra.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(main3.o)=0
+target:djikstra.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(process1.o)=0
+target:djikstra.o, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(process2.o)=0
+target:djikstra.o, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(graph.o)=0
+target:djikstra.o, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(main1.o) = 7, strlen(all)=119
+target:main1.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(main1.o) = 7, strlen(prog1)=0
+target:main1.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main1.o) = 7, strlen(prog2)=0
+target:main1.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main1.o) = 7, strlen(prog3)=0
+target:main1.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main1.o) = 7, strlen(main1.o)=0
+target:main1.o, graph_nodes[4]->target:main1.o
+strcmp=1
+target to be added:main1.o
+graphNode[4]:main1.o
+!!!!!!
+strlen(main1.c) = 7, strlen(all)=119
+target:main1.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(main1.c) = 7, strlen(prog1)=0
+target:main1.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main1.c) = 7, strlen(prog2)=0
+target:main1.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main1.c) = 7, strlen(prog3)=0
+target:main1.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main1.c) = 7, strlen(main1.o)=0
+target:main1.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main1.c) = 7, strlen(queue.o)=0
+target:main1.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main1.c) = 7, strlen(reader.o)=0
+target:main1.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main1.c) = 7, strlen(writer.o)=0
+target:main1.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main1.c) = 7, strlen(main2.o)=0
+target:main1.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(main1.c) = 7, strlen(parser.o)=0
+target:main1.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(main1.c) = 7, strlen(main3.o)=0
+target:main1.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(main1.c) = 7, strlen(process1.o)=0
+target:main1.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(main1.c) = 7, strlen(process2.o)=0
+target:main1.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(main1.c) = 7, strlen(graph.o)=0
+target:main1.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(main1.c) = 7, strlen(djikstra.o)=0
+target:main1.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(queue.h) = 7, strlen(all)=119
+target:queue.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.h) = 7, strlen(prog1)=0
+target:queue.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.h) = 7, strlen(prog2)=0
+target:queue.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.h) = 7, strlen(prog3)=0
+target:queue.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.o)=0
+target:queue.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.o)=0
+target:queue.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(queue.h) = 7, strlen(reader.o)=0
+target:queue.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(queue.h) = 7, strlen(writer.o)=0
+target:queue.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main2.o)=0
+target:queue.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(parser.o)=0
+target:queue.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main3.o)=0
+target:queue.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process1.o)=0
+target:queue.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process2.o)=0
+target:queue.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(graph.o)=0
+target:queue.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(queue.h) = 7, strlen(djikstra.o)=0
+target:queue.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.c)=0
+target:queue.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(reader.h) = 8, strlen(all)=119
+target:reader.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(reader.h) = 8, strlen(prog1)=0
+target:reader.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(reader.h) = 8, strlen(prog2)=0
+target:reader.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(reader.h) = 8, strlen(prog3)=0
+target:reader.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(reader.h) = 8, strlen(main1.o)=0
+target:reader.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(reader.h) = 8, strlen(queue.o)=0
+target:reader.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(reader.h) = 8, strlen(reader.o)=0
+target:reader.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(reader.h) = 8, strlen(writer.o)=0
+target:reader.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(reader.h) = 8, strlen(main2.o)=0
+target:reader.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(reader.h) = 8, strlen(parser.o)=0
+target:reader.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(reader.h) = 8, strlen(main3.o)=0
+target:reader.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(reader.h) = 8, strlen(process1.o)=0
+target:reader.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(reader.h) = 8, strlen(process2.o)=0
+target:reader.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(reader.h) = 8, strlen(graph.o)=0
+target:reader.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(reader.h) = 8, strlen(djikstra.o)=0
+target:reader.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(reader.h) = 8, strlen(main1.c)=0
+target:reader.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(reader.h) = 8, strlen(queue.h)=0
+target:reader.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(writer.h) = 8, strlen(all)=119
+target:writer.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(writer.h) = 8, strlen(prog1)=0
+target:writer.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(writer.h) = 8, strlen(prog2)=0
+target:writer.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(writer.h) = 8, strlen(prog3)=0
+target:writer.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(writer.h) = 8, strlen(main1.o)=0
+target:writer.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(writer.h) = 8, strlen(queue.o)=0
+target:writer.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(writer.h) = 8, strlen(reader.o)=0
+target:writer.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(writer.h) = 8, strlen(writer.o)=0
+target:writer.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main2.o)=0
+target:writer.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(writer.h) = 8, strlen(parser.o)=0
+target:writer.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main3.o)=0
+target:writer.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(writer.h) = 8, strlen(process1.o)=0
+target:writer.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(writer.h) = 8, strlen(process2.o)=0
+target:writer.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(writer.h) = 8, strlen(graph.o)=0
+target:writer.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(writer.h) = 8, strlen(djikstra.o)=0
+target:writer.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main1.c)=0
+target:writer.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(writer.h) = 8, strlen(queue.h)=0
+target:writer.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(writer.h) = 8, strlen(reader.h)=0
+target:writer.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(main1.c) = 7, strlen(all)=119
+target:main1.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(main1.c) = 7, strlen(prog1)=0
+target:main1.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main1.c) = 7, strlen(prog2)=0
+target:main1.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main1.c) = 7, strlen(prog3)=0
+target:main1.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main1.c) = 7, strlen(main1.o)=0
+target:main1.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main1.c) = 7, strlen(queue.o)=0
+target:main1.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main1.c) = 7, strlen(reader.o)=0
+target:main1.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main1.c) = 7, strlen(writer.o)=0
+target:main1.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main1.c) = 7, strlen(main2.o)=0
+target:main1.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(main1.c) = 7, strlen(parser.o)=0
+target:main1.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(main1.c) = 7, strlen(main3.o)=0
+target:main1.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(main1.c) = 7, strlen(process1.o)=0
+target:main1.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(main1.c) = 7, strlen(process2.o)=0
+target:main1.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(main1.c) = 7, strlen(graph.o)=0
+target:main1.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(main1.c) = 7, strlen(djikstra.o)=0
+target:main1.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(main1.c) = 7, strlen(main1.c)=0
+target:main1.c, graph_nodes[15]->target:main1.c
+strcmp=1
+target to be added:main1.c
+graphNode[15]:main1.c
+!!!!!!
+strlen(main_1_draft.c) = 14, strlen(all)=119
+target:main_1_draft.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(prog1)=0
+target:main_1_draft.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(prog2)=0
+target:main_1_draft.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(prog3)=0
+target:main_1_draft.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(main1.o)=0
+target:main_1_draft.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(queue.o)=0
+target:main_1_draft.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(reader.o)=0
+target:main_1_draft.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(writer.o)=0
+target:main_1_draft.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(main2.o)=0
+target:main_1_draft.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(parser.o)=0
+target:main_1_draft.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(main3.o)=0
+target:main_1_draft.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(process1.o)=0
+target:main_1_draft.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(process2.o)=0
+target:main_1_draft.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(graph.o)=0
+target:main_1_draft.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(djikstra.o)=0
+target:main_1_draft.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(main1.c)=0
+target:main_1_draft.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(queue.h)=0
+target:main_1_draft.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(reader.h)=0
+target:main_1_draft.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(main_1_draft.c) = 14, strlen(writer.h)=0
+target:main_1_draft.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(reader.o) = 8, strlen(all)=119
+target:reader.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(reader.o) = 8, strlen(prog1)=0
+target:reader.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(reader.o) = 8, strlen(prog2)=0
+target:reader.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(reader.o) = 8, strlen(prog3)=0
+target:reader.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(reader.o) = 8, strlen(main1.o)=0
+target:reader.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(reader.o) = 8, strlen(queue.o)=0
+target:reader.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(reader.o) = 8, strlen(reader.o)=0
+target:reader.o, graph_nodes[6]->target:reader.o
+strcmp=1
+target to be added:reader.o
+graphNode[6]:reader.o
+!!!!!!
+strlen(reader.c) = 8, strlen(all)=119
+target:reader.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(reader.c) = 8, strlen(prog1)=0
+target:reader.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(reader.c) = 8, strlen(prog2)=0
+target:reader.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(reader.c) = 8, strlen(prog3)=0
+target:reader.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(reader.c) = 8, strlen(main1.o)=0
+target:reader.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(reader.c) = 8, strlen(queue.o)=0
+target:reader.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(reader.c) = 8, strlen(reader.o)=0
+target:reader.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(reader.c) = 8, strlen(writer.o)=0
+target:reader.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(reader.c) = 8, strlen(main2.o)=0
+target:reader.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(reader.c) = 8, strlen(parser.o)=0
+target:reader.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(reader.c) = 8, strlen(main3.o)=0
+target:reader.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(reader.c) = 8, strlen(process1.o)=0
+target:reader.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(reader.c) = 8, strlen(process2.o)=0
+target:reader.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(reader.c) = 8, strlen(graph.o)=0
+target:reader.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(reader.c) = 8, strlen(djikstra.o)=0
+target:reader.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(reader.c) = 8, strlen(main1.c)=0
+target:reader.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(reader.c) = 8, strlen(queue.h)=0
+target:reader.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(reader.c) = 8, strlen(reader.h)=0
+target:reader.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(reader.c) = 8, strlen(writer.h)=0
+target:reader.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(reader.c) = 8, strlen(main_1_draft.c)=0
+target:reader.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(reader.h) = 8, strlen(all)=119
+target:reader.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(reader.h) = 8, strlen(prog1)=0
+target:reader.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(reader.h) = 8, strlen(prog2)=0
+target:reader.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(reader.h) = 8, strlen(prog3)=0
+target:reader.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(reader.h) = 8, strlen(main1.o)=0
+target:reader.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(reader.h) = 8, strlen(queue.o)=0
+target:reader.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(reader.h) = 8, strlen(reader.o)=0
+target:reader.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(reader.h) = 8, strlen(writer.o)=0
+target:reader.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(reader.h) = 8, strlen(main2.o)=0
+target:reader.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(reader.h) = 8, strlen(parser.o)=0
+target:reader.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(reader.h) = 8, strlen(main3.o)=0
+target:reader.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(reader.h) = 8, strlen(process1.o)=0
+target:reader.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(reader.h) = 8, strlen(process2.o)=0
+target:reader.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(reader.h) = 8, strlen(graph.o)=0
+target:reader.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(reader.h) = 8, strlen(djikstra.o)=0
+target:reader.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(reader.h) = 8, strlen(main1.c)=0
+target:reader.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(reader.h) = 8, strlen(queue.h)=0
+target:reader.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(reader.h) = 8, strlen(reader.h)=0
+target:reader.h, graph_nodes[17]->target:reader.h
+strcmp=1
+strlen(queue.h) = 7, strlen(all)=119
+target:queue.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.h) = 7, strlen(prog1)=0
+target:queue.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.h) = 7, strlen(prog2)=0
+target:queue.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.h) = 7, strlen(prog3)=0
+target:queue.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.o)=0
+target:queue.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.o)=0
+target:queue.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(queue.h) = 7, strlen(reader.o)=0
+target:queue.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(queue.h) = 7, strlen(writer.o)=0
+target:queue.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main2.o)=0
+target:queue.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(parser.o)=0
+target:queue.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main3.o)=0
+target:queue.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process1.o)=0
+target:queue.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process2.o)=0
+target:queue.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(graph.o)=0
+target:queue.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(queue.h) = 7, strlen(djikstra.o)=0
+target:queue.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.c)=0
+target:queue.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.h)=0
+target:queue.h, graph_nodes[16]->target:queue.h
+strcmp=1
+strlen(main2.o) = 7, strlen(all)=119
+target:main2.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(main2.o) = 7, strlen(prog1)=0
+target:main2.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main2.o) = 7, strlen(prog2)=0
+target:main2.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main2.o) = 7, strlen(prog3)=0
+target:main2.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main2.o) = 7, strlen(main1.o)=0
+target:main2.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main2.o) = 7, strlen(queue.o)=0
+target:main2.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main2.o) = 7, strlen(reader.o)=0
+target:main2.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main2.o) = 7, strlen(writer.o)=0
+target:main2.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main2.o) = 7, strlen(main2.o)=0
+target:main2.o, graph_nodes[8]->target:main2.o
+strcmp=1
+target to be added:main2.o
+graphNode[8]:main2.o
+!!!!!!
+strlen(main2.c) = 7, strlen(all)=119
+target:main2.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(main2.c) = 7, strlen(prog1)=0
+target:main2.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main2.c) = 7, strlen(prog2)=0
+target:main2.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main2.c) = 7, strlen(prog3)=0
+target:main2.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main2.c) = 7, strlen(main1.o)=0
+target:main2.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main2.c) = 7, strlen(queue.o)=0
+target:main2.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main2.c) = 7, strlen(reader.o)=0
+target:main2.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main2.c) = 7, strlen(writer.o)=0
+target:main2.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main2.c) = 7, strlen(main2.o)=0
+target:main2.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(main2.c) = 7, strlen(parser.o)=0
+target:main2.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(main2.c) = 7, strlen(main3.o)=0
+target:main2.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(main2.c) = 7, strlen(process1.o)=0
+target:main2.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(main2.c) = 7, strlen(process2.o)=0
+target:main2.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(main2.c) = 7, strlen(graph.o)=0
+target:main2.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(main2.c) = 7, strlen(djikstra.o)=0
+target:main2.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(main2.c) = 7, strlen(main1.c)=0
+target:main2.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(main2.c) = 7, strlen(queue.h)=0
+target:main2.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(main2.c) = 7, strlen(reader.h)=0
+target:main2.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(main2.c) = 7, strlen(writer.h)=0
+target:main2.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(main2.c) = 7, strlen(main_1_draft.c)=0
+target:main2.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(main2.c) = 7, strlen(reader.c)=0
+target:main2.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(queue.h) = 7, strlen(all)=119
+target:queue.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.h) = 7, strlen(prog1)=0
+target:queue.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.h) = 7, strlen(prog2)=0
+target:queue.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.h) = 7, strlen(prog3)=0
+target:queue.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.o)=0
+target:queue.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.o)=0
+target:queue.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(queue.h) = 7, strlen(reader.o)=0
+target:queue.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(queue.h) = 7, strlen(writer.o)=0
+target:queue.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main2.o)=0
+target:queue.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(parser.o)=0
+target:queue.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main3.o)=0
+target:queue.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process1.o)=0
+target:queue.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process2.o)=0
+target:queue.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(graph.o)=0
+target:queue.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(queue.h) = 7, strlen(djikstra.o)=0
+target:queue.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.c)=0
+target:queue.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.h)=0
+target:queue.h, graph_nodes[16]->target:queue.h
+strcmp=1
+strlen(writer.h) = 8, strlen(all)=119
+target:writer.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(writer.h) = 8, strlen(prog1)=0
+target:writer.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(writer.h) = 8, strlen(prog2)=0
+target:writer.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(writer.h) = 8, strlen(prog3)=0
+target:writer.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(writer.h) = 8, strlen(main1.o)=0
+target:writer.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(writer.h) = 8, strlen(queue.o)=0
+target:writer.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(writer.h) = 8, strlen(reader.o)=0
+target:writer.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(writer.h) = 8, strlen(writer.o)=0
+target:writer.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main2.o)=0
+target:writer.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(writer.h) = 8, strlen(parser.o)=0
+target:writer.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main3.o)=0
+target:writer.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(writer.h) = 8, strlen(process1.o)=0
+target:writer.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(writer.h) = 8, strlen(process2.o)=0
+target:writer.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(writer.h) = 8, strlen(graph.o)=0
+target:writer.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(writer.h) = 8, strlen(djikstra.o)=0
+target:writer.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main1.c)=0
+target:writer.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(writer.h) = 8, strlen(queue.h)=0
+target:writer.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(writer.h) = 8, strlen(reader.h)=0
+target:writer.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(writer.h) = 8, strlen(writer.h)=0
+target:writer.h, graph_nodes[18]->target:writer.h
+strcmp=1
+strlen(queue.o) = 7, strlen(all)=119
+target:queue.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.o) = 7, strlen(prog1)=0
+target:queue.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.o) = 7, strlen(prog2)=0
+target:queue.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.o) = 7, strlen(prog3)=0
+target:queue.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.o) = 7, strlen(main1.o)=0
+target:queue.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.o) = 7, strlen(queue.o)=0
+target:queue.o, graph_nodes[5]->target:queue.o
+strcmp=1
+target to be added:queue.o
+graphNode[5]:queue.o
+!!!!!!
+strlen(queue.c) = 7, strlen(all)=119
+target:queue.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.c) = 7, strlen(prog1)=0
+target:queue.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.c) = 7, strlen(prog2)=0
+target:queue.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.c) = 7, strlen(prog3)=0
+target:queue.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.c) = 7, strlen(main1.o)=0
+target:queue.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.c) = 7, strlen(queue.o)=0
+target:queue.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(queue.c) = 7, strlen(reader.o)=0
+target:queue.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(queue.c) = 7, strlen(writer.o)=0
+target:queue.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(queue.c) = 7, strlen(main2.o)=0
+target:queue.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(queue.c) = 7, strlen(parser.o)=0
+target:queue.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(queue.c) = 7, strlen(main3.o)=0
+target:queue.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(queue.c) = 7, strlen(process1.o)=0
+target:queue.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(queue.c) = 7, strlen(process2.o)=0
+target:queue.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(queue.c) = 7, strlen(graph.o)=0
+target:queue.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(queue.c) = 7, strlen(djikstra.o)=0
+target:queue.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(queue.c) = 7, strlen(main1.c)=0
+target:queue.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(queue.c) = 7, strlen(queue.h)=0
+target:queue.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(queue.c) = 7, strlen(reader.h)=0
+target:queue.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(queue.c) = 7, strlen(writer.h)=0
+target:queue.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(queue.c) = 7, strlen(main_1_draft.c)=0
+target:queue.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(queue.c) = 7, strlen(reader.c)=0
+target:queue.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(queue.c) = 7, strlen(main2.c)=0
+target:queue.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(queue.h) = 7, strlen(all)=119
+target:queue.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.h) = 7, strlen(prog1)=0
+target:queue.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.h) = 7, strlen(prog2)=0
+target:queue.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.h) = 7, strlen(prog3)=0
+target:queue.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.o)=0
+target:queue.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.o)=0
+target:queue.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(queue.h) = 7, strlen(reader.o)=0
+target:queue.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(queue.h) = 7, strlen(writer.o)=0
+target:queue.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main2.o)=0
+target:queue.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(parser.o)=0
+target:queue.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main3.o)=0
+target:queue.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process1.o)=0
+target:queue.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process2.o)=0
+target:queue.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(graph.o)=0
+target:queue.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(queue.h) = 7, strlen(djikstra.o)=0
+target:queue.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.c)=0
+target:queue.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.h)=0
+target:queue.h, graph_nodes[16]->target:queue.h
+strcmp=1
+strlen(writer.o) = 8, strlen(all)=119
+target:writer.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(writer.o) = 8, strlen(prog1)=0
+target:writer.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(writer.o) = 8, strlen(prog2)=0
+target:writer.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(writer.o) = 8, strlen(prog3)=0
+target:writer.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(writer.o) = 8, strlen(main1.o)=0
+target:writer.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(writer.o) = 8, strlen(queue.o)=0
+target:writer.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(writer.o) = 8, strlen(reader.o)=0
+target:writer.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(writer.o) = 8, strlen(writer.o)=0
+target:writer.o, graph_nodes[7]->target:writer.o
+strcmp=1
+target to be added:writer.o
+graphNode[7]:writer.o
+!!!!!!
+strlen(writer.c) = 8, strlen(all)=119
+target:writer.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(writer.c) = 8, strlen(prog1)=0
+target:writer.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(writer.c) = 8, strlen(prog2)=0
+target:writer.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(writer.c) = 8, strlen(prog3)=0
+target:writer.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(writer.c) = 8, strlen(main1.o)=0
+target:writer.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(writer.c) = 8, strlen(queue.o)=0
+target:writer.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(writer.c) = 8, strlen(reader.o)=0
+target:writer.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(writer.c) = 8, strlen(writer.o)=0
+target:writer.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(writer.c) = 8, strlen(main2.o)=0
+target:writer.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(writer.c) = 8, strlen(parser.o)=0
+target:writer.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(writer.c) = 8, strlen(main3.o)=0
+target:writer.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(writer.c) = 8, strlen(process1.o)=0
+target:writer.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(writer.c) = 8, strlen(process2.o)=0
+target:writer.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(writer.c) = 8, strlen(graph.o)=0
+target:writer.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(writer.c) = 8, strlen(djikstra.o)=0
+target:writer.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(writer.c) = 8, strlen(main1.c)=0
+target:writer.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(writer.c) = 8, strlen(queue.h)=0
+target:writer.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(writer.c) = 8, strlen(reader.h)=0
+target:writer.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(writer.c) = 8, strlen(writer.h)=0
+target:writer.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(writer.c) = 8, strlen(main_1_draft.c)=0
+target:writer.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(writer.c) = 8, strlen(reader.c)=0
+target:writer.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(writer.c) = 8, strlen(main2.c)=0
+target:writer.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(writer.c) = 8, strlen(queue.c)=0
+target:writer.c, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(writer.h) = 8, strlen(all)=119
+target:writer.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(writer.h) = 8, strlen(prog1)=0
+target:writer.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(writer.h) = 8, strlen(prog2)=0
+target:writer.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(writer.h) = 8, strlen(prog3)=0
+target:writer.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(writer.h) = 8, strlen(main1.o)=0
+target:writer.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(writer.h) = 8, strlen(queue.o)=0
+target:writer.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(writer.h) = 8, strlen(reader.o)=0
+target:writer.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(writer.h) = 8, strlen(writer.o)=0
+target:writer.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main2.o)=0
+target:writer.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(writer.h) = 8, strlen(parser.o)=0
+target:writer.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main3.o)=0
+target:writer.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(writer.h) = 8, strlen(process1.o)=0
+target:writer.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(writer.h) = 8, strlen(process2.o)=0
+target:writer.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(writer.h) = 8, strlen(graph.o)=0
+target:writer.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(writer.h) = 8, strlen(djikstra.o)=0
+target:writer.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(writer.h) = 8, strlen(main1.c)=0
+target:writer.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(writer.h) = 8, strlen(queue.h)=0
+target:writer.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(writer.h) = 8, strlen(reader.h)=0
+target:writer.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(writer.h) = 8, strlen(writer.h)=0
+target:writer.h, graph_nodes[18]->target:writer.h
+strcmp=1
+strlen(queue.h) = 7, strlen(all)=119
+target:queue.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(queue.h) = 7, strlen(prog1)=0
+target:queue.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(queue.h) = 7, strlen(prog2)=0
+target:queue.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(queue.h) = 7, strlen(prog3)=0
+target:queue.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.o)=0
+target:queue.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.o)=0
+target:queue.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(queue.h) = 7, strlen(reader.o)=0
+target:queue.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(queue.h) = 7, strlen(writer.o)=0
+target:queue.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main2.o)=0
+target:queue.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(parser.o)=0
+target:queue.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main3.o)=0
+target:queue.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process1.o)=0
+target:queue.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(queue.h) = 7, strlen(process2.o)=0
+target:queue.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(queue.h) = 7, strlen(graph.o)=0
+target:queue.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(queue.h) = 7, strlen(djikstra.o)=0
+target:queue.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(queue.h) = 7, strlen(main1.c)=0
+target:queue.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(queue.h) = 7, strlen(queue.h)=0
+target:queue.h, graph_nodes[16]->target:queue.h
+strcmp=1
+strlen(parser.o) = 8, strlen(all)=119
+target:parser.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(parser.o) = 8, strlen(prog1)=0
+target:parser.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(parser.o) = 8, strlen(prog2)=0
+target:parser.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(parser.o) = 8, strlen(prog3)=0
+target:parser.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(parser.o) = 8, strlen(main1.o)=0
+target:parser.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(parser.o) = 8, strlen(queue.o)=0
+target:parser.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(parser.o) = 8, strlen(reader.o)=0
+target:parser.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(parser.o) = 8, strlen(writer.o)=0
+target:parser.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(parser.o) = 8, strlen(main2.o)=0
+target:parser.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(parser.o) = 8, strlen(parser.o)=0
+target:parser.o, graph_nodes[9]->target:parser.o
+strcmp=1
+target to be added:parser.o
+graphNode[9]:parser.o
+!!!!!!
+strlen(parser.c) = 8, strlen(all)=119
+target:parser.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(parser.c) = 8, strlen(prog1)=0
+target:parser.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(parser.c) = 8, strlen(prog2)=0
+target:parser.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(parser.c) = 8, strlen(prog3)=0
+target:parser.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(parser.c) = 8, strlen(main1.o)=0
+target:parser.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(parser.c) = 8, strlen(queue.o)=0
+target:parser.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(parser.c) = 8, strlen(reader.o)=0
+target:parser.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(parser.c) = 8, strlen(writer.o)=0
+target:parser.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(parser.c) = 8, strlen(main2.o)=0
+target:parser.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(parser.c) = 8, strlen(parser.o)=0
+target:parser.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(parser.c) = 8, strlen(main3.o)=0
+target:parser.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(parser.c) = 8, strlen(process1.o)=0
+target:parser.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(parser.c) = 8, strlen(process2.o)=0
+target:parser.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(parser.c) = 8, strlen(graph.o)=0
+target:parser.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(parser.c) = 8, strlen(djikstra.o)=0
+target:parser.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(parser.c) = 8, strlen(main1.c)=0
+target:parser.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(parser.c) = 8, strlen(queue.h)=0
+target:parser.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(parser.c) = 8, strlen(reader.h)=0
+target:parser.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(parser.c) = 8, strlen(writer.h)=0
+target:parser.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(parser.c) = 8, strlen(main_1_draft.c)=0
+target:parser.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(parser.c) = 8, strlen(reader.c)=0
+target:parser.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(parser.c) = 8, strlen(main2.c)=0
+target:parser.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(parser.c) = 8, strlen(queue.c)=0
+target:parser.c, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(parser.c) = 8, strlen(writer.c)=0
+target:parser.c, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(parser.h) = 8, strlen(all)=119
+target:parser.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(parser.h) = 8, strlen(prog1)=0
+target:parser.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(parser.h) = 8, strlen(prog2)=0
+target:parser.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(parser.h) = 8, strlen(prog3)=0
+target:parser.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(parser.h) = 8, strlen(main1.o)=0
+target:parser.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(parser.h) = 8, strlen(queue.o)=0
+target:parser.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(parser.h) = 8, strlen(reader.o)=0
+target:parser.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(parser.h) = 8, strlen(writer.o)=0
+target:parser.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(parser.h) = 8, strlen(main2.o)=0
+target:parser.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(parser.h) = 8, strlen(parser.o)=0
+target:parser.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(parser.h) = 8, strlen(main3.o)=0
+target:parser.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(parser.h) = 8, strlen(process1.o)=0
+target:parser.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(parser.h) = 8, strlen(process2.o)=0
+target:parser.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(parser.h) = 8, strlen(graph.o)=0
+target:parser.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(parser.h) = 8, strlen(djikstra.o)=0
+target:parser.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(parser.h) = 8, strlen(main1.c)=0
+target:parser.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(parser.h) = 8, strlen(queue.h)=0
+target:parser.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(parser.h) = 8, strlen(reader.h)=0
+target:parser.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(parser.h) = 8, strlen(writer.h)=0
+target:parser.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(parser.h) = 8, strlen(main_1_draft.c)=0
+target:parser.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(parser.h) = 8, strlen(reader.c)=0
+target:parser.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(parser.h) = 8, strlen(main2.c)=0
+target:parser.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(parser.h) = 8, strlen(queue.c)=0
+target:parser.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(parser.h) = 8, strlen(writer.c)=0
+target:parser.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(parser.h) = 8, strlen(parser.c)=0
+target:parser.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(main3.o) = 7, strlen(all)=119
+target:main3.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(main3.o) = 7, strlen(prog1)=0
+target:main3.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main3.o) = 7, strlen(prog2)=0
+target:main3.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main3.o) = 7, strlen(prog3)=0
+target:main3.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main3.o) = 7, strlen(main1.o)=0
+target:main3.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main3.o) = 7, strlen(queue.o)=0
+target:main3.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main3.o) = 7, strlen(reader.o)=0
+target:main3.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main3.o) = 7, strlen(writer.o)=0
+target:main3.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main3.o) = 7, strlen(main2.o)=0
+target:main3.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(main3.o) = 7, strlen(parser.o)=0
+target:main3.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(main3.o) = 7, strlen(main3.o)=0
+target:main3.o, graph_nodes[10]->target:main3.o
+strcmp=1
+target to be added:main3.o
+graphNode[10]:main3.o
+!!!!!!
+strlen(main3.c) = 7, strlen(all)=119
+target:main3.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(main3.c) = 7, strlen(prog1)=0
+target:main3.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(main3.c) = 7, strlen(prog2)=0
+target:main3.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(main3.c) = 7, strlen(prog3)=0
+target:main3.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(main3.c) = 7, strlen(main1.o)=0
+target:main3.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(main3.c) = 7, strlen(queue.o)=0
+target:main3.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(main3.c) = 7, strlen(reader.o)=0
+target:main3.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(main3.c) = 7, strlen(writer.o)=0
+target:main3.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(main3.c) = 7, strlen(main2.o)=0
+target:main3.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(main3.c) = 7, strlen(parser.o)=0
+target:main3.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(main3.c) = 7, strlen(main3.o)=0
+target:main3.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(main3.c) = 7, strlen(process1.o)=0
+target:main3.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(main3.c) = 7, strlen(process2.o)=0
+target:main3.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(main3.c) = 7, strlen(graph.o)=0
+target:main3.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(main3.c) = 7, strlen(djikstra.o)=0
+target:main3.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(main3.c) = 7, strlen(main1.c)=0
+target:main3.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(main3.c) = 7, strlen(queue.h)=0
+target:main3.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(main3.c) = 7, strlen(reader.h)=0
+target:main3.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(main3.c) = 7, strlen(writer.h)=0
+target:main3.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(main3.c) = 7, strlen(main_1_draft.c)=0
+target:main3.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(main3.c) = 7, strlen(reader.c)=0
+target:main3.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(main3.c) = 7, strlen(main2.c)=0
+target:main3.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(main3.c) = 7, strlen(queue.c)=0
+target:main3.c, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(main3.c) = 7, strlen(writer.c)=0
+target:main3.c, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(main3.c) = 7, strlen(parser.c)=0
+target:main3.c, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(main3.c) = 7, strlen(parser.h)=0
+target:main3.c, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(process1.h) = 10, strlen(all)=119
+target:process1.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(process1.h) = 10, strlen(prog1)=0
+target:process1.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process1.h) = 10, strlen(prog2)=0
+target:process1.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process1.h) = 10, strlen(prog3)=0
+target:process1.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process1.h) = 10, strlen(main1.o)=0
+target:process1.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process1.h) = 10, strlen(queue.o)=0
+target:process1.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process1.h) = 10, strlen(reader.o)=0
+target:process1.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process1.h) = 10, strlen(writer.o)=0
+target:process1.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process1.h) = 10, strlen(main2.o)=0
+target:process1.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process1.h) = 10, strlen(parser.o)=0
+target:process1.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process1.h) = 10, strlen(main3.o)=0
+target:process1.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process1.h) = 10, strlen(process1.o)=0
+target:process1.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(process1.h) = 10, strlen(process2.o)=0
+target:process1.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(process1.h) = 10, strlen(graph.o)=0
+target:process1.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(process1.h) = 10, strlen(djikstra.o)=0
+target:process1.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(process1.h) = 10, strlen(main1.c)=0
+target:process1.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(process1.h) = 10, strlen(queue.h)=0
+target:process1.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(process1.h) = 10, strlen(reader.h)=0
+target:process1.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(process1.h) = 10, strlen(writer.h)=0
+target:process1.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(process1.h) = 10, strlen(main_1_draft.c)=0
+target:process1.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(process1.h) = 10, strlen(reader.c)=0
+target:process1.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(process1.h) = 10, strlen(main2.c)=0
+target:process1.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(process1.h) = 10, strlen(queue.c)=0
+target:process1.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(process1.h) = 10, strlen(writer.c)=0
+target:process1.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(process1.h) = 10, strlen(parser.c)=0
+target:process1.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(process1.h) = 10, strlen(parser.h)=0
+target:process1.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(process1.h) = 10, strlen(main3.c)=0
+target:process1.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(process2.h) = 10, strlen(all)=119
+target:process2.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(process2.h) = 10, strlen(prog1)=0
+target:process2.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process2.h) = 10, strlen(prog2)=0
+target:process2.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process2.h) = 10, strlen(prog3)=0
+target:process2.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process2.h) = 10, strlen(main1.o)=0
+target:process2.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process2.h) = 10, strlen(queue.o)=0
+target:process2.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process2.h) = 10, strlen(reader.o)=0
+target:process2.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process2.h) = 10, strlen(writer.o)=0
+target:process2.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process2.h) = 10, strlen(main2.o)=0
+target:process2.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process2.h) = 10, strlen(parser.o)=0
+target:process2.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process2.h) = 10, strlen(main3.o)=0
+target:process2.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process2.h) = 10, strlen(process1.o)=0
+target:process2.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(process2.h) = 10, strlen(process2.o)=0
+target:process2.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(process2.h) = 10, strlen(graph.o)=0
+target:process2.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(process2.h) = 10, strlen(djikstra.o)=0
+target:process2.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(process2.h) = 10, strlen(main1.c)=0
+target:process2.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(process2.h) = 10, strlen(queue.h)=0
+target:process2.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(process2.h) = 10, strlen(reader.h)=0
+target:process2.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(process2.h) = 10, strlen(writer.h)=0
+target:process2.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(process2.h) = 10, strlen(main_1_draft.c)=0
+target:process2.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(process2.h) = 10, strlen(reader.c)=0
+target:process2.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(process2.h) = 10, strlen(main2.c)=0
+target:process2.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(process2.h) = 10, strlen(queue.c)=0
+target:process2.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(process2.h) = 10, strlen(writer.c)=0
+target:process2.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(process2.h) = 10, strlen(parser.c)=0
+target:process2.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(process2.h) = 10, strlen(parser.h)=0
+target:process2.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(process2.h) = 10, strlen(main3.c)=0
+target:process2.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(process2.h) = 10, strlen(process1.h)=0
+target:process2.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(graph.h) = 7, strlen(all)=119
+target:graph.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.h) = 7, strlen(prog1)=0
+target:graph.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.h) = 7, strlen(prog2)=0
+target:graph.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.h) = 7, strlen(prog3)=0
+target:graph.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.o)=0
+target:graph.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.o)=0
+target:graph.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.o)=0
+target:graph.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.o)=0
+target:graph.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.o)=0
+target:graph.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.o)=0
+target:graph.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.o)=0
+target:graph.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.o)=0
+target:graph.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.o)=0
+target:graph.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.o)=0
+target:graph.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(graph.h) = 7, strlen(djikstra.o)=0
+target:graph.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.c)=0
+target:graph.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.h)=0
+target:graph.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.h)=0
+target:graph.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.h)=0
+target:graph.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main_1_draft.c)=0
+target:graph.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.c)=0
+target:graph.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.c)=0
+target:graph.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.c)=0
+target:graph.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.c)=0
+target:graph.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.c)=0
+target:graph.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.h)=0
+target:graph.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.c)=0
+target:graph.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.h)=0
+target:graph.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.h)=0
+target:graph.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(all)=119
+target:djikstra.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog1)=0
+target:djikstra.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog2)=0
+target:djikstra.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog3)=0
+target:djikstra.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.o)=0
+target:djikstra.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.o)=0
+target:djikstra.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.o)=0
+target:djikstra.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.o)=0
+target:djikstra.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.o)=0
+target:djikstra.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.o)=0
+target:djikstra.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.o)=0
+target:djikstra.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.o)=0
+target:djikstra.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.o)=0
+target:djikstra.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.o)=0
+target:djikstra.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(djikstra.o)=0
+target:djikstra.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.c)=0
+target:djikstra.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.h)=0
+target:djikstra.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.h)=0
+target:djikstra.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.h)=0
+target:djikstra.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main_1_draft.c)=0
+target:djikstra.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.c)=0
+target:djikstra.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.c)=0
+target:djikstra.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.c)=0
+target:djikstra.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.c)=0
+target:djikstra.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.c)=0
+target:djikstra.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.h)=0
+target:djikstra.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.c)=0
+target:djikstra.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.h)=0
+target:djikstra.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.h)=0
+target:djikstra.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.h)=0
+target:djikstra.h, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(process1.o) = 10, strlen(all)=119
+target:process1.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(process1.o) = 10, strlen(prog1)=0
+target:process1.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process1.o) = 10, strlen(prog2)=0
+target:process1.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process1.o) = 10, strlen(prog3)=0
+target:process1.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process1.o) = 10, strlen(main1.o)=0
+target:process1.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process1.o) = 10, strlen(queue.o)=0
+target:process1.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process1.o) = 10, strlen(reader.o)=0
+target:process1.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process1.o) = 10, strlen(writer.o)=0
+target:process1.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process1.o) = 10, strlen(main2.o)=0
+target:process1.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process1.o) = 10, strlen(parser.o)=0
+target:process1.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process1.o) = 10, strlen(main3.o)=0
+target:process1.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process1.o) = 10, strlen(process1.o)=0
+target:process1.o, graph_nodes[11]->target:process1.o
+strcmp=1
+target to be added:process1.o
+graphNode[11]:process1.o
+!!!!!!
+strlen(process1.c) = 10, strlen(all)=119
+target:process1.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(process1.c) = 10, strlen(prog1)=0
+target:process1.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process1.c) = 10, strlen(prog2)=0
+target:process1.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process1.c) = 10, strlen(prog3)=0
+target:process1.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process1.c) = 10, strlen(main1.o)=0
+target:process1.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process1.c) = 10, strlen(queue.o)=0
+target:process1.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process1.c) = 10, strlen(reader.o)=0
+target:process1.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process1.c) = 10, strlen(writer.o)=0
+target:process1.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process1.c) = 10, strlen(main2.o)=0
+target:process1.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process1.c) = 10, strlen(parser.o)=0
+target:process1.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process1.c) = 10, strlen(main3.o)=0
+target:process1.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process1.c) = 10, strlen(process1.o)=0
+target:process1.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(process1.c) = 10, strlen(process2.o)=0
+target:process1.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(process1.c) = 10, strlen(graph.o)=0
+target:process1.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(process1.c) = 10, strlen(djikstra.o)=0
+target:process1.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(process1.c) = 10, strlen(main1.c)=0
+target:process1.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(process1.c) = 10, strlen(queue.h)=0
+target:process1.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(process1.c) = 10, strlen(reader.h)=0
+target:process1.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(process1.c) = 10, strlen(writer.h)=0
+target:process1.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(process1.c) = 10, strlen(main_1_draft.c)=0
+target:process1.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(process1.c) = 10, strlen(reader.c)=0
+target:process1.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(process1.c) = 10, strlen(main2.c)=0
+target:process1.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(process1.c) = 10, strlen(queue.c)=0
+target:process1.c, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(process1.c) = 10, strlen(writer.c)=0
+target:process1.c, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(process1.c) = 10, strlen(parser.c)=0
+target:process1.c, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(process1.c) = 10, strlen(parser.h)=0
+target:process1.c, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(process1.c) = 10, strlen(main3.c)=0
+target:process1.c, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(process1.c) = 10, strlen(process1.h)=0
+target:process1.c, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(process1.c) = 10, strlen(process2.h)=0
+target:process1.c, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(process1.c) = 10, strlen(graph.h)=0
+target:process1.c, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(process1.c) = 10, strlen(djikstra.h)=0
+target:process1.c, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(process1.h) = 10, strlen(all)=119
+target:process1.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(process1.h) = 10, strlen(prog1)=0
+target:process1.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process1.h) = 10, strlen(prog2)=0
+target:process1.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process1.h) = 10, strlen(prog3)=0
+target:process1.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process1.h) = 10, strlen(main1.o)=0
+target:process1.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process1.h) = 10, strlen(queue.o)=0
+target:process1.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process1.h) = 10, strlen(reader.o)=0
+target:process1.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process1.h) = 10, strlen(writer.o)=0
+target:process1.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process1.h) = 10, strlen(main2.o)=0
+target:process1.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process1.h) = 10, strlen(parser.o)=0
+target:process1.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process1.h) = 10, strlen(main3.o)=0
+target:process1.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process1.h) = 10, strlen(process1.o)=0
+target:process1.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(process1.h) = 10, strlen(process2.o)=0
+target:process1.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(process1.h) = 10, strlen(graph.o)=0
+target:process1.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(process1.h) = 10, strlen(djikstra.o)=0
+target:process1.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(process1.h) = 10, strlen(main1.c)=0
+target:process1.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(process1.h) = 10, strlen(queue.h)=0
+target:process1.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(process1.h) = 10, strlen(reader.h)=0
+target:process1.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(process1.h) = 10, strlen(writer.h)=0
+target:process1.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(process1.h) = 10, strlen(main_1_draft.c)=0
+target:process1.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(process1.h) = 10, strlen(reader.c)=0
+target:process1.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(process1.h) = 10, strlen(main2.c)=0
+target:process1.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(process1.h) = 10, strlen(queue.c)=0
+target:process1.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(process1.h) = 10, strlen(writer.c)=0
+target:process1.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(process1.h) = 10, strlen(parser.c)=0
+target:process1.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(process1.h) = 10, strlen(parser.h)=0
+target:process1.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(process1.h) = 10, strlen(main3.c)=0
+target:process1.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(process1.h) = 10, strlen(process1.h)=0
+target:process1.h, graph_nodes[27]->target:process1.h
+strcmp=1
+strlen(graph.h) = 7, strlen(all)=119
+target:graph.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.h) = 7, strlen(prog1)=0
+target:graph.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.h) = 7, strlen(prog2)=0
+target:graph.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.h) = 7, strlen(prog3)=0
+target:graph.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.o)=0
+target:graph.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.o)=0
+target:graph.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.o)=0
+target:graph.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.o)=0
+target:graph.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.o)=0
+target:graph.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.o)=0
+target:graph.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.o)=0
+target:graph.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.o)=0
+target:graph.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.o)=0
+target:graph.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.o)=0
+target:graph.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(graph.h) = 7, strlen(djikstra.o)=0
+target:graph.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.c)=0
+target:graph.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.h)=0
+target:graph.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.h)=0
+target:graph.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.h)=0
+target:graph.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main_1_draft.c)=0
+target:graph.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.c)=0
+target:graph.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.c)=0
+target:graph.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.c)=0
+target:graph.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.c)=0
+target:graph.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.c)=0
+target:graph.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.h)=0
+target:graph.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.c)=0
+target:graph.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.h)=0
+target:graph.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.h)=0
+target:graph.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.h)=0
+target:graph.h, graph_nodes[29]->target:graph.h
+strcmp=1
+strlen(djikstra.h) = 10, strlen(all)=119
+target:djikstra.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog1)=0
+target:djikstra.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog2)=0
+target:djikstra.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog3)=0
+target:djikstra.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.o)=0
+target:djikstra.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.o)=0
+target:djikstra.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.o)=0
+target:djikstra.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.o)=0
+target:djikstra.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.o)=0
+target:djikstra.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.o)=0
+target:djikstra.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.o)=0
+target:djikstra.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.o)=0
+target:djikstra.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.o)=0
+target:djikstra.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.o)=0
+target:djikstra.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(djikstra.o)=0
+target:djikstra.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.c)=0
+target:djikstra.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.h)=0
+target:djikstra.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.h)=0
+target:djikstra.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.h)=0
+target:djikstra.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main_1_draft.c)=0
+target:djikstra.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.c)=0
+target:djikstra.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.c)=0
+target:djikstra.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.c)=0
+target:djikstra.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.c)=0
+target:djikstra.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.c)=0
+target:djikstra.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.h)=0
+target:djikstra.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.c)=0
+target:djikstra.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.h)=0
+target:djikstra.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.h)=0
+target:djikstra.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.h)=0
+target:djikstra.h, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(djikstra.h)=0
+target:djikstra.h, graph_nodes[30]->target:djikstra.h
+strcmp=1
+strlen(process2.o) = 10, strlen(all)=119
+target:process2.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(process2.o) = 10, strlen(prog1)=0
+target:process2.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process2.o) = 10, strlen(prog2)=0
+target:process2.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process2.o) = 10, strlen(prog3)=0
+target:process2.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process2.o) = 10, strlen(main1.o)=0
+target:process2.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process2.o) = 10, strlen(queue.o)=0
+target:process2.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process2.o) = 10, strlen(reader.o)=0
+target:process2.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process2.o) = 10, strlen(writer.o)=0
+target:process2.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process2.o) = 10, strlen(main2.o)=0
+target:process2.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process2.o) = 10, strlen(parser.o)=0
+target:process2.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process2.o) = 10, strlen(main3.o)=0
+target:process2.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process2.o) = 10, strlen(process1.o)=0
+target:process2.o, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(process2.o) = 10, strlen(process2.o)=0
+target:process2.o, graph_nodes[12]->target:process2.o
+strcmp=1
+target to be added:process2.o
+graphNode[12]:process2.o
+!!!!!!
+strlen(process2.c) = 10, strlen(all)=119
+target:process2.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(process2.c) = 10, strlen(prog1)=0
+target:process2.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process2.c) = 10, strlen(prog2)=0
+target:process2.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process2.c) = 10, strlen(prog3)=0
+target:process2.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process2.c) = 10, strlen(main1.o)=0
+target:process2.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process2.c) = 10, strlen(queue.o)=0
+target:process2.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process2.c) = 10, strlen(reader.o)=0
+target:process2.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process2.c) = 10, strlen(writer.o)=0
+target:process2.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process2.c) = 10, strlen(main2.o)=0
+target:process2.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process2.c) = 10, strlen(parser.o)=0
+target:process2.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process2.c) = 10, strlen(main3.o)=0
+target:process2.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process2.c) = 10, strlen(process1.o)=0
+target:process2.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(process2.c) = 10, strlen(process2.o)=0
+target:process2.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(process2.c) = 10, strlen(graph.o)=0
+target:process2.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(process2.c) = 10, strlen(djikstra.o)=0
+target:process2.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(process2.c) = 10, strlen(main1.c)=0
+target:process2.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(process2.c) = 10, strlen(queue.h)=0
+target:process2.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(process2.c) = 10, strlen(reader.h)=0
+target:process2.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(process2.c) = 10, strlen(writer.h)=0
+target:process2.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(process2.c) = 10, strlen(main_1_draft.c)=0
+target:process2.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(process2.c) = 10, strlen(reader.c)=0
+target:process2.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(process2.c) = 10, strlen(main2.c)=0
+target:process2.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(process2.c) = 10, strlen(queue.c)=0
+target:process2.c, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(process2.c) = 10, strlen(writer.c)=0
+target:process2.c, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(process2.c) = 10, strlen(parser.c)=0
+target:process2.c, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(process2.c) = 10, strlen(parser.h)=0
+target:process2.c, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(process2.c) = 10, strlen(main3.c)=0
+target:process2.c, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(process2.c) = 10, strlen(process1.h)=0
+target:process2.c, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(process2.c) = 10, strlen(process2.h)=0
+target:process2.c, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(process2.c) = 10, strlen(graph.h)=0
+target:process2.c, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(process2.c) = 10, strlen(djikstra.h)=0
+target:process2.c, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(process2.c) = 10, strlen(process1.c)=0
+target:process2.c, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(process2.h) = 10, strlen(all)=119
+target:process2.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(process2.h) = 10, strlen(prog1)=0
+target:process2.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(process2.h) = 10, strlen(prog2)=0
+target:process2.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(process2.h) = 10, strlen(prog3)=0
+target:process2.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(process2.h) = 10, strlen(main1.o)=0
+target:process2.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(process2.h) = 10, strlen(queue.o)=0
+target:process2.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(process2.h) = 10, strlen(reader.o)=0
+target:process2.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(process2.h) = 10, strlen(writer.o)=0
+target:process2.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(process2.h) = 10, strlen(main2.o)=0
+target:process2.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(process2.h) = 10, strlen(parser.o)=0
+target:process2.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(process2.h) = 10, strlen(main3.o)=0
+target:process2.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(process2.h) = 10, strlen(process1.o)=0
+target:process2.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(process2.h) = 10, strlen(process2.o)=0
+target:process2.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(process2.h) = 10, strlen(graph.o)=0
+target:process2.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(process2.h) = 10, strlen(djikstra.o)=0
+target:process2.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(process2.h) = 10, strlen(main1.c)=0
+target:process2.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(process2.h) = 10, strlen(queue.h)=0
+target:process2.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(process2.h) = 10, strlen(reader.h)=0
+target:process2.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(process2.h) = 10, strlen(writer.h)=0
+target:process2.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(process2.h) = 10, strlen(main_1_draft.c)=0
+target:process2.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(process2.h) = 10, strlen(reader.c)=0
+target:process2.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(process2.h) = 10, strlen(main2.c)=0
+target:process2.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(process2.h) = 10, strlen(queue.c)=0
+target:process2.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(process2.h) = 10, strlen(writer.c)=0
+target:process2.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(process2.h) = 10, strlen(parser.c)=0
+target:process2.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(process2.h) = 10, strlen(parser.h)=0
+target:process2.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(process2.h) = 10, strlen(main3.c)=0
+target:process2.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(process2.h) = 10, strlen(process1.h)=0
+target:process2.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(process2.h) = 10, strlen(process2.h)=0
+target:process2.h, graph_nodes[28]->target:process2.h
+strcmp=1
+strlen(graph.h) = 7, strlen(all)=119
+target:graph.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.h) = 7, strlen(prog1)=0
+target:graph.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.h) = 7, strlen(prog2)=0
+target:graph.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.h) = 7, strlen(prog3)=0
+target:graph.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.o)=0
+target:graph.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.o)=0
+target:graph.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.o)=0
+target:graph.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.o)=0
+target:graph.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.o)=0
+target:graph.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.o)=0
+target:graph.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.o)=0
+target:graph.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.o)=0
+target:graph.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.o)=0
+target:graph.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.o)=0
+target:graph.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(graph.h) = 7, strlen(djikstra.o)=0
+target:graph.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.c)=0
+target:graph.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.h)=0
+target:graph.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.h)=0
+target:graph.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.h)=0
+target:graph.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main_1_draft.c)=0
+target:graph.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.c)=0
+target:graph.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.c)=0
+target:graph.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.c)=0
+target:graph.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.c)=0
+target:graph.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.c)=0
+target:graph.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.h)=0
+target:graph.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.c)=0
+target:graph.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.h)=0
+target:graph.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.h)=0
+target:graph.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.h)=0
+target:graph.h, graph_nodes[29]->target:graph.h
+strcmp=1
+strlen(djikstra.h) = 10, strlen(all)=119
+target:djikstra.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog1)=0
+target:djikstra.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog2)=0
+target:djikstra.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog3)=0
+target:djikstra.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.o)=0
+target:djikstra.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.o)=0
+target:djikstra.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.o)=0
+target:djikstra.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.o)=0
+target:djikstra.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.o)=0
+target:djikstra.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.o)=0
+target:djikstra.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.o)=0
+target:djikstra.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.o)=0
+target:djikstra.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.o)=0
+target:djikstra.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.o)=0
+target:djikstra.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(djikstra.o)=0
+target:djikstra.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.c)=0
+target:djikstra.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.h)=0
+target:djikstra.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.h)=0
+target:djikstra.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.h)=0
+target:djikstra.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main_1_draft.c)=0
+target:djikstra.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.c)=0
+target:djikstra.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.c)=0
+target:djikstra.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.c)=0
+target:djikstra.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.c)=0
+target:djikstra.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.c)=0
+target:djikstra.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.h)=0
+target:djikstra.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.c)=0
+target:djikstra.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.h)=0
+target:djikstra.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.h)=0
+target:djikstra.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.h)=0
+target:djikstra.h, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(djikstra.h)=0
+target:djikstra.h, graph_nodes[30]->target:djikstra.h
+strcmp=1
+strlen(graph.o) = 7, strlen(all)=119
+target:graph.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.o) = 7, strlen(prog1)=0
+target:graph.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.o) = 7, strlen(prog2)=0
+target:graph.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.o) = 7, strlen(prog3)=0
+target:graph.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.o) = 7, strlen(main1.o)=0
+target:graph.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.o) = 7, strlen(queue.o)=0
+target:graph.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.o) = 7, strlen(reader.o)=0
+target:graph.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.o) = 7, strlen(writer.o)=0
+target:graph.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.o) = 7, strlen(main2.o)=0
+target:graph.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.o) = 7, strlen(parser.o)=0
+target:graph.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.o) = 7, strlen(main3.o)=0
+target:graph.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.o) = 7, strlen(process1.o)=0
+target:graph.o, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.o) = 7, strlen(process2.o)=0
+target:graph.o, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(graph.o) = 7, strlen(graph.o)=0
+target:graph.o, graph_nodes[13]->target:graph.o
+strcmp=1
+target to be added:graph.o
+graphNode[13]:graph.o
+!!!!!!
+strlen(graph.c) = 7, strlen(all)=119
+target:graph.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.c) = 7, strlen(prog1)=0
+target:graph.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.c) = 7, strlen(prog2)=0
+target:graph.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.c) = 7, strlen(prog3)=0
+target:graph.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.c) = 7, strlen(main1.o)=0
+target:graph.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.c) = 7, strlen(queue.o)=0
+target:graph.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.c) = 7, strlen(reader.o)=0
+target:graph.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.c) = 7, strlen(writer.o)=0
+target:graph.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.c) = 7, strlen(main2.o)=0
+target:graph.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.c) = 7, strlen(parser.o)=0
+target:graph.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.c) = 7, strlen(main3.o)=0
+target:graph.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.c) = 7, strlen(process1.o)=0
+target:graph.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.c) = 7, strlen(process2.o)=0
+target:graph.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(graph.c) = 7, strlen(graph.o)=0
+target:graph.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(graph.c) = 7, strlen(djikstra.o)=0
+target:graph.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(graph.c) = 7, strlen(main1.c)=0
+target:graph.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(graph.c) = 7, strlen(queue.h)=0
+target:graph.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(graph.c) = 7, strlen(reader.h)=0
+target:graph.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(graph.c) = 7, strlen(writer.h)=0
+target:graph.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(graph.c) = 7, strlen(main_1_draft.c)=0
+target:graph.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(graph.c) = 7, strlen(reader.c)=0
+target:graph.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(graph.c) = 7, strlen(main2.c)=0
+target:graph.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(graph.c) = 7, strlen(queue.c)=0
+target:graph.c, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(graph.c) = 7, strlen(writer.c)=0
+target:graph.c, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(graph.c) = 7, strlen(parser.c)=0
+target:graph.c, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(graph.c) = 7, strlen(parser.h)=0
+target:graph.c, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(graph.c) = 7, strlen(main3.c)=0
+target:graph.c, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(graph.c) = 7, strlen(process1.h)=0
+target:graph.c, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(graph.c) = 7, strlen(process2.h)=0
+target:graph.c, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(graph.c) = 7, strlen(graph.h)=0
+target:graph.c, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(graph.c) = 7, strlen(djikstra.h)=0
+target:graph.c, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(graph.c) = 7, strlen(process1.c)=0
+target:graph.c, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(graph.c) = 7, strlen(process2.c)=0
+target:graph.c, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(graph.h) = 7, strlen(all)=119
+target:graph.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.h) = 7, strlen(prog1)=0
+target:graph.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.h) = 7, strlen(prog2)=0
+target:graph.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.h) = 7, strlen(prog3)=0
+target:graph.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.o)=0
+target:graph.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.o)=0
+target:graph.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.o)=0
+target:graph.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.o)=0
+target:graph.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.o)=0
+target:graph.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.o)=0
+target:graph.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.o)=0
+target:graph.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.o)=0
+target:graph.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.o)=0
+target:graph.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.o)=0
+target:graph.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(graph.h) = 7, strlen(djikstra.o)=0
+target:graph.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.c)=0
+target:graph.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.h)=0
+target:graph.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.h)=0
+target:graph.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.h)=0
+target:graph.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main_1_draft.c)=0
+target:graph.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.c)=0
+target:graph.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.c)=0
+target:graph.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.c)=0
+target:graph.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.c)=0
+target:graph.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.c)=0
+target:graph.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.h)=0
+target:graph.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.c)=0
+target:graph.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.h)=0
+target:graph.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.h)=0
+target:graph.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.h)=0
+target:graph.h, graph_nodes[29]->target:graph.h
+strcmp=1
+strlen(djikstra.o) = 10, strlen(all)=119
+target:djikstra.o, graph_nodes[0]->target:all
+strcmp=0
+strlen(djikstra.o) = 10, strlen(prog1)=0
+target:djikstra.o, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(djikstra.o) = 10, strlen(prog2)=0
+target:djikstra.o, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(djikstra.o) = 10, strlen(prog3)=0
+target:djikstra.o, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(djikstra.o) = 10, strlen(main1.o)=0
+target:djikstra.o, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(queue.o)=0
+target:djikstra.o, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(reader.o)=0
+target:djikstra.o, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(writer.o)=0
+target:djikstra.o, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(main2.o)=0
+target:djikstra.o, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(parser.o)=0
+target:djikstra.o, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(main3.o)=0
+target:djikstra.o, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(process1.o)=0
+target:djikstra.o, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(process2.o)=0
+target:djikstra.o, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(graph.o)=0
+target:djikstra.o, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(djikstra.o) = 10, strlen(djikstra.o)=0
+target:djikstra.o, graph_nodes[14]->target:djikstra.o
+strcmp=1
+target to be added:djikstra.o
+graphNode[14]:djikstra.o
+!!!!!!
+strlen(djikstra.c) = 10, strlen(all)=119
+target:djikstra.c, graph_nodes[0]->target:all
+strcmp=0
+strlen(djikstra.c) = 10, strlen(prog1)=0
+target:djikstra.c, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(djikstra.c) = 10, strlen(prog2)=0
+target:djikstra.c, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(djikstra.c) = 10, strlen(prog3)=0
+target:djikstra.c, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(djikstra.c) = 10, strlen(main1.o)=0
+target:djikstra.c, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(queue.o)=0
+target:djikstra.c, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(reader.o)=0
+target:djikstra.c, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(writer.o)=0
+target:djikstra.c, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(main2.o)=0
+target:djikstra.c, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(parser.o)=0
+target:djikstra.c, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(main3.o)=0
+target:djikstra.c, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(process1.o)=0
+target:djikstra.c, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(process2.o)=0
+target:djikstra.c, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(graph.o)=0
+target:djikstra.c, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(djikstra.o)=0
+target:djikstra.c, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(djikstra.c) = 10, strlen(main1.c)=0
+target:djikstra.c, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(queue.h)=0
+target:djikstra.c, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(reader.h)=0
+target:djikstra.c, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(writer.h)=0
+target:djikstra.c, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(main_1_draft.c)=0
+target:djikstra.c, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(reader.c)=0
+target:djikstra.c, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(main2.c)=0
+target:djikstra.c, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(queue.c)=0
+target:djikstra.c, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(writer.c)=0
+target:djikstra.c, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(parser.c)=0
+target:djikstra.c, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(parser.h)=0
+target:djikstra.c, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(main3.c)=0
+target:djikstra.c, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(process1.h)=0
+target:djikstra.c, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(process2.h)=0
+target:djikstra.c, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(graph.h)=0
+target:djikstra.c, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(djikstra.h)=0
+target:djikstra.c, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(djikstra.c) = 10, strlen(process1.c)=0
+target:djikstra.c, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(process2.c)=0
+target:djikstra.c, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(djikstra.c) = 10, strlen(graph.c)=0
+target:djikstra.c, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(all)=119
+target:djikstra.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog1)=0
+target:djikstra.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog2)=0
+target:djikstra.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(djikstra.h) = 10, strlen(prog3)=0
+target:djikstra.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.o)=0
+target:djikstra.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.o)=0
+target:djikstra.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.o)=0
+target:djikstra.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.o)=0
+target:djikstra.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.o)=0
+target:djikstra.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.o)=0
+target:djikstra.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.o)=0
+target:djikstra.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.o)=0
+target:djikstra.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.o)=0
+target:djikstra.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.o)=0
+target:djikstra.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(djikstra.o)=0
+target:djikstra.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main1.c)=0
+target:djikstra.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.h)=0
+target:djikstra.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.h)=0
+target:djikstra.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.h)=0
+target:djikstra.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main_1_draft.c)=0
+target:djikstra.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(reader.c)=0
+target:djikstra.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main2.c)=0
+target:djikstra.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(queue.c)=0
+target:djikstra.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(writer.c)=0
+target:djikstra.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.c)=0
+target:djikstra.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(parser.h)=0
+target:djikstra.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(main3.c)=0
+target:djikstra.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process1.h)=0
+target:djikstra.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(process2.h)=0
+target:djikstra.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(graph.h)=0
+target:djikstra.h, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(djikstra.h) = 10, strlen(djikstra.h)=0
+target:djikstra.h, graph_nodes[30]->target:djikstra.h
+strcmp=1
+strlen(graph.h) = 7, strlen(all)=119
+target:graph.h, graph_nodes[0]->target:all
+strcmp=0
+strlen(graph.h) = 7, strlen(prog1)=0
+target:graph.h, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(graph.h) = 7, strlen(prog2)=0
+target:graph.h, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(graph.h) = 7, strlen(prog3)=0
+target:graph.h, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.o)=0
+target:graph.h, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.o)=0
+target:graph.h, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.o)=0
+target:graph.h, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.o)=0
+target:graph.h, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.o)=0
+target:graph.h, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.o)=0
+target:graph.h, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.o)=0
+target:graph.h, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.o)=0
+target:graph.h, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.o)=0
+target:graph.h, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.o)=0
+target:graph.h, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(graph.h) = 7, strlen(djikstra.o)=0
+target:graph.h, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(graph.h) = 7, strlen(main1.c)=0
+target:graph.h, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.h)=0
+target:graph.h, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.h)=0
+target:graph.h, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.h)=0
+target:graph.h, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main_1_draft.c)=0
+target:graph.h, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(graph.h) = 7, strlen(reader.c)=0
+target:graph.h, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(graph.h) = 7, strlen(main2.c)=0
+target:graph.h, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(graph.h) = 7, strlen(queue.c)=0
+target:graph.h, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(graph.h) = 7, strlen(writer.c)=0
+target:graph.h, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.c)=0
+target:graph.h, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(graph.h) = 7, strlen(parser.h)=0
+target:graph.h, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(graph.h) = 7, strlen(main3.c)=0
+target:graph.h, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(graph.h) = 7, strlen(process1.h)=0
+target:graph.h, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(graph.h) = 7, strlen(process2.h)=0
+target:graph.h, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(graph.h) = 7, strlen(graph.h)=0
+target:graph.h, graph_nodes[29]->target:graph.h
+strcmp=1
+strlen(clean_objs) = 10, strlen(all)=119
+target:clean_objs, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_objs) = 10, strlen(prog1)=0
+target:clean_objs, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_objs) = 10, strlen(prog2)=0
+target:clean_objs, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_objs) = 10, strlen(prog3)=0
+target:clean_objs, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_objs) = 10, strlen(main1.o)=0
+target:clean_objs, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(queue.o)=0
+target:clean_objs, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(reader.o)=0
+target:clean_objs, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(writer.o)=0
+target:clean_objs, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(main2.o)=0
+target:clean_objs, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(parser.o)=0
+target:clean_objs, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(main3.o)=0
+target:clean_objs, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(process1.o)=0
+target:clean_objs, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(process2.o)=0
+target:clean_objs, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(graph.o)=0
+target:clean_objs, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(djikstra.o)=0
+target:clean_objs, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(main1.c)=0
+target:clean_objs, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(queue.h)=0
+target:clean_objs, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(reader.h)=0
+target:clean_objs, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(writer.h)=0
+target:clean_objs, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(main_1_draft.c)=0
+target:clean_objs, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(reader.c)=0
+target:clean_objs, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(main2.c)=0
+target:clean_objs, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(queue.c)=0
+target:clean_objs, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(writer.c)=0
+target:clean_objs, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(parser.c)=0
+target:clean_objs, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(parser.h)=0
+target:clean_objs, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(main3.c)=0
+target:clean_objs, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(process1.h)=0
+target:clean_objs, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(process2.h)=0
+target:clean_objs, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(graph.h)=0
+target:clean_objs, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(djikstra.h)=0
+target:clean_objs, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(process1.c)=0
+target:clean_objs, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(process2.c)=0
+target:clean_objs, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(graph.c)=0
+target:clean_objs, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(djikstra.c)=0
+target:clean_objs, graph_nodes[34]->target:djikstra.c
+strcmp=0
+target to be added:clean_objs
+graphNode[35]:clean_objs
+!!!!!!
+strlen(clean_prog1) = 11, strlen(all)=119
+target:clean_prog1, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_prog1) = 11, strlen(prog1)=0
+target:clean_prog1, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_prog1) = 11, strlen(prog2)=0
+target:clean_prog1, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_prog1) = 11, strlen(prog3)=0
+target:clean_prog1, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main1.o)=0
+target:clean_prog1, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(queue.o)=0
+target:clean_prog1, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(reader.o)=0
+target:clean_prog1, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(writer.o)=0
+target:clean_prog1, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main2.o)=0
+target:clean_prog1, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(parser.o)=0
+target:clean_prog1, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main3.o)=0
+target:clean_prog1, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process1.o)=0
+target:clean_prog1, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process2.o)=0
+target:clean_prog1, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(graph.o)=0
+target:clean_prog1, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(djikstra.o)=0
+target:clean_prog1, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main1.c)=0
+target:clean_prog1, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(queue.h)=0
+target:clean_prog1, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(reader.h)=0
+target:clean_prog1, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(writer.h)=0
+target:clean_prog1, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main_1_draft.c)=0
+target:clean_prog1, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(reader.c)=0
+target:clean_prog1, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main2.c)=0
+target:clean_prog1, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(queue.c)=0
+target:clean_prog1, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(writer.c)=0
+target:clean_prog1, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(parser.c)=0
+target:clean_prog1, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(parser.h)=0
+target:clean_prog1, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main3.c)=0
+target:clean_prog1, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process1.h)=0
+target:clean_prog1, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process2.h)=0
+target:clean_prog1, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(graph.h)=0
+target:clean_prog1, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(djikstra.h)=0
+target:clean_prog1, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process1.c)=0
+target:clean_prog1, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process2.c)=0
+target:clean_prog1, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(graph.c)=0
+target:clean_prog1, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(djikstra.c)=0
+target:clean_prog1, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(clean_objs)=0
+target:clean_prog1, graph_nodes[35]->target:clean_objs
+strcmp=0
+target to be added:clean_prog1
+graphNode[36]:clean_prog1
+!!!!!!
+strlen(clean_prog2) = 11, strlen(all)=119
+target:clean_prog2, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_prog2) = 11, strlen(prog1)=0
+target:clean_prog2, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_prog2) = 11, strlen(prog2)=0
+target:clean_prog2, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_prog2) = 11, strlen(prog3)=0
+target:clean_prog2, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main1.o)=0
+target:clean_prog2, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(queue.o)=0
+target:clean_prog2, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(reader.o)=0
+target:clean_prog2, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(writer.o)=0
+target:clean_prog2, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main2.o)=0
+target:clean_prog2, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(parser.o)=0
+target:clean_prog2, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main3.o)=0
+target:clean_prog2, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process1.o)=0
+target:clean_prog2, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process2.o)=0
+target:clean_prog2, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(graph.o)=0
+target:clean_prog2, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(djikstra.o)=0
+target:clean_prog2, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main1.c)=0
+target:clean_prog2, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(queue.h)=0
+target:clean_prog2, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(reader.h)=0
+target:clean_prog2, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(writer.h)=0
+target:clean_prog2, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main_1_draft.c)=0
+target:clean_prog2, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(reader.c)=0
+target:clean_prog2, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main2.c)=0
+target:clean_prog2, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(queue.c)=0
+target:clean_prog2, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(writer.c)=0
+target:clean_prog2, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(parser.c)=0
+target:clean_prog2, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(parser.h)=0
+target:clean_prog2, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main3.c)=0
+target:clean_prog2, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process1.h)=0
+target:clean_prog2, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process2.h)=0
+target:clean_prog2, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(graph.h)=0
+target:clean_prog2, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(djikstra.h)=0
+target:clean_prog2, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process1.c)=0
+target:clean_prog2, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process2.c)=0
+target:clean_prog2, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(graph.c)=0
+target:clean_prog2, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(djikstra.c)=0
+target:clean_prog2, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(clean_objs)=0
+target:clean_prog2, graph_nodes[35]->target:clean_objs
+strcmp=0
+strlen(clean_prog2) = 11, strlen(clean_prog1)=0
+target:clean_prog2, graph_nodes[36]->target:clean_prog1
+strcmp=0
+target to be added:clean_prog2
+graphNode[37]:clean_prog2
+!!!!!!
+strlen(clean_prog3) = 11, strlen(all)=119
+target:clean_prog3, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_prog3) = 11, strlen(prog1)=0
+target:clean_prog3, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_prog3) = 11, strlen(prog2)=0
+target:clean_prog3, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_prog3) = 11, strlen(prog3)=0
+target:clean_prog3, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main1.o)=0
+target:clean_prog3, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(queue.o)=0
+target:clean_prog3, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(reader.o)=0
+target:clean_prog3, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(writer.o)=0
+target:clean_prog3, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main2.o)=0
+target:clean_prog3, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(parser.o)=0
+target:clean_prog3, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main3.o)=0
+target:clean_prog3, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process1.o)=0
+target:clean_prog3, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process2.o)=0
+target:clean_prog3, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(graph.o)=0
+target:clean_prog3, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(djikstra.o)=0
+target:clean_prog3, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main1.c)=0
+target:clean_prog3, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(queue.h)=0
+target:clean_prog3, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(reader.h)=0
+target:clean_prog3, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(writer.h)=0
+target:clean_prog3, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main_1_draft.c)=0
+target:clean_prog3, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(reader.c)=0
+target:clean_prog3, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main2.c)=0
+target:clean_prog3, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(queue.c)=0
+target:clean_prog3, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(writer.c)=0
+target:clean_prog3, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(parser.c)=0
+target:clean_prog3, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(parser.h)=0
+target:clean_prog3, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main3.c)=0
+target:clean_prog3, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process1.h)=0
+target:clean_prog3, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process2.h)=0
+target:clean_prog3, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(graph.h)=0
+target:clean_prog3, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(djikstra.h)=0
+target:clean_prog3, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process1.c)=0
+target:clean_prog3, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process2.c)=0
+target:clean_prog3, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(graph.c)=0
+target:clean_prog3, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(djikstra.c)=0
+target:clean_prog3, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(clean_objs)=0
+target:clean_prog3, graph_nodes[35]->target:clean_objs
+strcmp=0
+strlen(clean_prog3) = 11, strlen(clean_prog1)=0
+target:clean_prog3, graph_nodes[36]->target:clean_prog1
+strcmp=0
+strlen(clean_prog3) = 11, strlen(clean_prog2)=0
+target:clean_prog3, graph_nodes[37]->target:clean_prog2
+strcmp=0
+target to be added:clean_prog3
+graphNode[38]:clean_prog3
+!!!!!!
+strlen(clean) = 5, strlen(all)=119
+target:clean, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean) = 5, strlen(prog1)=0
+target:clean, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean) = 5, strlen(prog2)=0
+target:clean, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean) = 5, strlen(prog3)=0
+target:clean, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean) = 5, strlen(main1.o)=0
+target:clean, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean) = 5, strlen(queue.o)=0
+target:clean, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean) = 5, strlen(reader.o)=0
+target:clean, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean) = 5, strlen(writer.o)=0
+target:clean, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean) = 5, strlen(main2.o)=0
+target:clean, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean) = 5, strlen(parser.o)=0
+target:clean, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean) = 5, strlen(main3.o)=0
+target:clean, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean) = 5, strlen(process1.o)=0
+target:clean, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean) = 5, strlen(process2.o)=0
+target:clean, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean) = 5, strlen(graph.o)=0
+target:clean, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean) = 5, strlen(djikstra.o)=0
+target:clean, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean) = 5, strlen(main1.c)=0
+target:clean, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean) = 5, strlen(queue.h)=0
+target:clean, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean) = 5, strlen(reader.h)=0
+target:clean, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean) = 5, strlen(writer.h)=0
+target:clean, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean) = 5, strlen(main_1_draft.c)=0
+target:clean, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean) = 5, strlen(reader.c)=0
+target:clean, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean) = 5, strlen(main2.c)=0
+target:clean, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean) = 5, strlen(queue.c)=0
+target:clean, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean) = 5, strlen(writer.c)=0
+target:clean, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean) = 5, strlen(parser.c)=0
+target:clean, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean) = 5, strlen(parser.h)=0
+target:clean, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean) = 5, strlen(main3.c)=0
+target:clean, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean) = 5, strlen(process1.h)=0
+target:clean, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean) = 5, strlen(process2.h)=0
+target:clean, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean) = 5, strlen(graph.h)=0
+target:clean, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean) = 5, strlen(djikstra.h)=0
+target:clean, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean) = 5, strlen(process1.c)=0
+target:clean, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean) = 5, strlen(process2.c)=0
+target:clean, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean) = 5, strlen(graph.c)=0
+target:clean, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean) = 5, strlen(djikstra.c)=0
+target:clean, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean) = 5, strlen(clean_objs)=0
+target:clean, graph_nodes[35]->target:clean_objs
+strcmp=0
+strlen(clean) = 5, strlen(clean_prog1)=0
+target:clean, graph_nodes[36]->target:clean_prog1
+strcmp=0
+strlen(clean) = 5, strlen(clean_prog2)=0
+target:clean, graph_nodes[37]->target:clean_prog2
+strcmp=0
+strlen(clean) = 5, strlen(clean_prog3)=0
+target:clean, graph_nodes[38]->target:clean_prog3
+strcmp=0
+target to be added:clean
+graphNode[39]:clean
+!!!!!!
+strlen(clean_objs) = 10, strlen(all)=119
+target:clean_objs, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_objs) = 10, strlen(prog1)=0
+target:clean_objs, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_objs) = 10, strlen(prog2)=0
+target:clean_objs, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_objs) = 10, strlen(prog3)=0
+target:clean_objs, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_objs) = 10, strlen(main1.o)=0
+target:clean_objs, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(queue.o)=0
+target:clean_objs, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(reader.o)=0
+target:clean_objs, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(writer.o)=0
+target:clean_objs, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(main2.o)=0
+target:clean_objs, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(parser.o)=0
+target:clean_objs, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(main3.o)=0
+target:clean_objs, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(process1.o)=0
+target:clean_objs, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(process2.o)=0
+target:clean_objs, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(graph.o)=0
+target:clean_objs, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(djikstra.o)=0
+target:clean_objs, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_objs) = 10, strlen(main1.c)=0
+target:clean_objs, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(queue.h)=0
+target:clean_objs, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(reader.h)=0
+target:clean_objs, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(writer.h)=0
+target:clean_objs, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(main_1_draft.c)=0
+target:clean_objs, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(reader.c)=0
+target:clean_objs, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(main2.c)=0
+target:clean_objs, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(queue.c)=0
+target:clean_objs, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(writer.c)=0
+target:clean_objs, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(parser.c)=0
+target:clean_objs, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(parser.h)=0
+target:clean_objs, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(main3.c)=0
+target:clean_objs, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(process1.h)=0
+target:clean_objs, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(process2.h)=0
+target:clean_objs, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(graph.h)=0
+target:clean_objs, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(djikstra.h)=0
+target:clean_objs, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_objs) = 10, strlen(process1.c)=0
+target:clean_objs, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(process2.c)=0
+target:clean_objs, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(graph.c)=0
+target:clean_objs, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(djikstra.c)=0
+target:clean_objs, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean_objs) = 10, strlen(clean_objs)=0
+target:clean_objs, graph_nodes[35]->target:clean_objs
+strcmp=1
+strlen(clean_prog1) = 11, strlen(all)=119
+target:clean_prog1, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_prog1) = 11, strlen(prog1)=0
+target:clean_prog1, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_prog1) = 11, strlen(prog2)=0
+target:clean_prog1, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_prog1) = 11, strlen(prog3)=0
+target:clean_prog1, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main1.o)=0
+target:clean_prog1, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(queue.o)=0
+target:clean_prog1, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(reader.o)=0
+target:clean_prog1, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(writer.o)=0
+target:clean_prog1, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main2.o)=0
+target:clean_prog1, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(parser.o)=0
+target:clean_prog1, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main3.o)=0
+target:clean_prog1, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process1.o)=0
+target:clean_prog1, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process2.o)=0
+target:clean_prog1, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(graph.o)=0
+target:clean_prog1, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(djikstra.o)=0
+target:clean_prog1, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main1.c)=0
+target:clean_prog1, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(queue.h)=0
+target:clean_prog1, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(reader.h)=0
+target:clean_prog1, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(writer.h)=0
+target:clean_prog1, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main_1_draft.c)=0
+target:clean_prog1, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(reader.c)=0
+target:clean_prog1, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main2.c)=0
+target:clean_prog1, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(queue.c)=0
+target:clean_prog1, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(writer.c)=0
+target:clean_prog1, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(parser.c)=0
+target:clean_prog1, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(parser.h)=0
+target:clean_prog1, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(main3.c)=0
+target:clean_prog1, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process1.h)=0
+target:clean_prog1, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process2.h)=0
+target:clean_prog1, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(graph.h)=0
+target:clean_prog1, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(djikstra.h)=0
+target:clean_prog1, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process1.c)=0
+target:clean_prog1, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(process2.c)=0
+target:clean_prog1, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(graph.c)=0
+target:clean_prog1, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(djikstra.c)=0
+target:clean_prog1, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean_prog1) = 11, strlen(clean_objs)=0
+target:clean_prog1, graph_nodes[35]->target:clean_objs
+strcmp=0
+strlen(clean_prog1) = 11, strlen(clean_prog1)=0
+target:clean_prog1, graph_nodes[36]->target:clean_prog1
+strcmp=1
+strlen(clean_prog2) = 11, strlen(all)=119
+target:clean_prog2, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_prog2) = 11, strlen(prog1)=0
+target:clean_prog2, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_prog2) = 11, strlen(prog2)=0
+target:clean_prog2, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_prog2) = 11, strlen(prog3)=0
+target:clean_prog2, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main1.o)=0
+target:clean_prog2, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(queue.o)=0
+target:clean_prog2, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(reader.o)=0
+target:clean_prog2, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(writer.o)=0
+target:clean_prog2, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main2.o)=0
+target:clean_prog2, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(parser.o)=0
+target:clean_prog2, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main3.o)=0
+target:clean_prog2, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process1.o)=0
+target:clean_prog2, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process2.o)=0
+target:clean_prog2, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(graph.o)=0
+target:clean_prog2, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(djikstra.o)=0
+target:clean_prog2, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main1.c)=0
+target:clean_prog2, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(queue.h)=0
+target:clean_prog2, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(reader.h)=0
+target:clean_prog2, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(writer.h)=0
+target:clean_prog2, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main_1_draft.c)=0
+target:clean_prog2, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(reader.c)=0
+target:clean_prog2, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main2.c)=0
+target:clean_prog2, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(queue.c)=0
+target:clean_prog2, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(writer.c)=0
+target:clean_prog2, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(parser.c)=0
+target:clean_prog2, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(parser.h)=0
+target:clean_prog2, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(main3.c)=0
+target:clean_prog2, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process1.h)=0
+target:clean_prog2, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process2.h)=0
+target:clean_prog2, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(graph.h)=0
+target:clean_prog2, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(djikstra.h)=0
+target:clean_prog2, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process1.c)=0
+target:clean_prog2, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(process2.c)=0
+target:clean_prog2, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(graph.c)=0
+target:clean_prog2, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(djikstra.c)=0
+target:clean_prog2, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean_prog2) = 11, strlen(clean_objs)=0
+target:clean_prog2, graph_nodes[35]->target:clean_objs
+strcmp=0
+strlen(clean_prog2) = 11, strlen(clean_prog1)=0
+target:clean_prog2, graph_nodes[36]->target:clean_prog1
+strcmp=0
+strlen(clean_prog2) = 11, strlen(clean_prog2)=0
+target:clean_prog2, graph_nodes[37]->target:clean_prog2
+strcmp=1
+strlen(clean_prog3) = 11, strlen(all)=119
+target:clean_prog3, graph_nodes[0]->target:all
+strcmp=0
+strlen(clean_prog3) = 11, strlen(prog1)=0
+target:clean_prog3, graph_nodes[1]->target:prog1
+strcmp=0
+strlen(clean_prog3) = 11, strlen(prog2)=0
+target:clean_prog3, graph_nodes[2]->target:prog2
+strcmp=0
+strlen(clean_prog3) = 11, strlen(prog3)=0
+target:clean_prog3, graph_nodes[3]->target:prog3
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main1.o)=0
+target:clean_prog3, graph_nodes[4]->target:main1.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(queue.o)=0
+target:clean_prog3, graph_nodes[5]->target:queue.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(reader.o)=0
+target:clean_prog3, graph_nodes[6]->target:reader.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(writer.o)=0
+target:clean_prog3, graph_nodes[7]->target:writer.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main2.o)=0
+target:clean_prog3, graph_nodes[8]->target:main2.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(parser.o)=0
+target:clean_prog3, graph_nodes[9]->target:parser.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main3.o)=0
+target:clean_prog3, graph_nodes[10]->target:main3.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process1.o)=0
+target:clean_prog3, graph_nodes[11]->target:process1.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process2.o)=0
+target:clean_prog3, graph_nodes[12]->target:process2.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(graph.o)=0
+target:clean_prog3, graph_nodes[13]->target:graph.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(djikstra.o)=0
+target:clean_prog3, graph_nodes[14]->target:djikstra.o
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main1.c)=0
+target:clean_prog3, graph_nodes[15]->target:main1.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(queue.h)=0
+target:clean_prog3, graph_nodes[16]->target:queue.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(reader.h)=0
+target:clean_prog3, graph_nodes[17]->target:reader.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(writer.h)=0
+target:clean_prog3, graph_nodes[18]->target:writer.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main_1_draft.c)=0
+target:clean_prog3, graph_nodes[19]->target:main_1_draft.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(reader.c)=0
+target:clean_prog3, graph_nodes[20]->target:reader.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main2.c)=0
+target:clean_prog3, graph_nodes[21]->target:main2.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(queue.c)=0
+target:clean_prog3, graph_nodes[22]->target:queue.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(writer.c)=0
+target:clean_prog3, graph_nodes[23]->target:writer.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(parser.c)=0
+target:clean_prog3, graph_nodes[24]->target:parser.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(parser.h)=0
+target:clean_prog3, graph_nodes[25]->target:parser.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(main3.c)=0
+target:clean_prog3, graph_nodes[26]->target:main3.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process1.h)=0
+target:clean_prog3, graph_nodes[27]->target:process1.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process2.h)=0
+target:clean_prog3, graph_nodes[28]->target:process2.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(graph.h)=0
+target:clean_prog3, graph_nodes[29]->target:graph.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(djikstra.h)=0
+target:clean_prog3, graph_nodes[30]->target:djikstra.h
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process1.c)=0
+target:clean_prog3, graph_nodes[31]->target:process1.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(process2.c)=0
+target:clean_prog3, graph_nodes[32]->target:process2.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(graph.c)=0
+target:clean_prog3, graph_nodes[33]->target:graph.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(djikstra.c)=0
+target:clean_prog3, graph_nodes[34]->target:djikstra.c
+strcmp=0
+strlen(clean_prog3) = 11, strlen(clean_objs)=0
+target:clean_prog3, graph_nodes[35]->target:clean_objs
+strcmp=0
+strlen(clean_prog3) = 11, strlen(clean_prog1)=0
+target:clean_prog3, graph_nodes[36]->target:clean_prog1
+strcmp=0
+strlen(clean_prog3) = 11, strlen(clean_prog2)=0
+target:clean_prog3, graph_nodes[37]->target:clean_prog2
+strcmp=0
+strlen(clean_prog3) = 11, strlen(clean_prog3)=0
+target:clean_prog3, graph_nodes[38]->target:clean_prog3
+strcmp=1
+end of build graphdependency list of all: prog1, prog2, prog3,  
+dependency list of prog1: main1.o, queue.o, reader.o, writer.o,  
+dependency list of prog2: queue.o, reader.o, main2.o, parser.o,  
+dependency list of prog3: main3.o, process1.o, process2.o, graph.o, djikstra.o,  
+dependency list of main1.o: main1.c, queue.h, reader.h, writer.h,  
+dependency list of queue.o: queue.h, queue.c,  
+dependency list of reader.o: queue.h, reader.h, reader.c,  
+dependency list of writer.o: queue.h, writer.h, writer.c,  
+dependency list of main2.o: queue.h, writer.h, main2.c,  
+dependency list of parser.o: parser.c, parser.h,  
+dependency list of main3.o: main3.c, process1.h, process2.h, graph.h, djikstra.h,  
+dependency list of process1.o: process1.h, graph.h, djikstra.h, process1.c,  
+dependency list of process2.o: process2.h, graph.h, djikstra.h, process2.c,  
+dependency list of graph.o: graph.h, graph.c,  
+dependency list of djikstra.o: graph.h, djikstra.h, djikstra.c,  
+dependency list of main1.c: main_1_draft.c,  
+dependency list of queue.h:  
+dependency list of reader.h:  
+dependency list of writer.h:  
+dependency list of main_1_draft.c:  
+dependency list of reader.c:  
+dependency list of main2.c:  
+dependency list of queue.c:  
+dependency list of writer.c:  
+dependency list of parser.c:  
+dependency list of parser.h:  
+dependency list of main3.c:  
+dependency list of process1.h:  
+dependency list of process2.h:  
+dependency list of graph.h:  
+dependency list of djikstra.h:  
+dependency list of process1.c:  
+dependency list of process2.c:  
+dependency list of graph.c:  
+dependency list of djikstra.c:  
+dependency list of clean_objs:  
+dependency list of clean_prog1:  
+dependency list of clean_prog2:  
+dependency list of clean_prog3:  
+dependency list of clean: clean_objs, clean_prog1, clean_prog2, clean_prog3,  
