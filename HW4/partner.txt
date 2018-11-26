@@ -1,0 +1,6 @@
+/*
+* CS537 Fall 2018
+* Program Assignment 4
+* Alexandra maas, maas, amaas4@wisc.edu, 9073795388
+* Griff Zhang, griff, xzhang953@wisc.edu, 9078214609
+*/

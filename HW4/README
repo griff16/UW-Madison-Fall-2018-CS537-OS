@@ -1,0 +1,12 @@
+simple_testcase1: Test basic funtionality of malloc537, free537, memcheck537
+
+simple_testcase2: Allocating memory of size 0
+	-> Your program is expected to throw a warning and continue execution for malloc537(0)
+	-> But when trying to free the pointer, program should throw error and exit
+
+simple_testcase3: Trying to free a wrong address
+	-> You program should throw error and exit, when trying to free a memory location
+
+simple_testcase4: Freeing an already freed pointer (Double free)
+
+simple_testcase5: Allocating a memory and then reallocating for a bigger size

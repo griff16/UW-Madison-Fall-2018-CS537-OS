@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/HW4.dir/simple_testcase5.c.o CMakeFiles/HW4.dir/537malloc.c.o CMakeFiles/HW4.dir/AVLTree.c.o CMakeFiles/HW4.dir/tuple.c.o  -o HW4.exe -Wl,--out-implib,libHW4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
