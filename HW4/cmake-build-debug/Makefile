@@ -177,32 +177,32 @@ AVLTree.c.s:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/AVLTree.c.s
 .PHONY : AVLTree.c.s
 
-simple_testcase5.o: simple_testcase5.c.o
+advanced_testcase4.o: advanced_testcase4.c.o
 
-.PHONY : simple_testcase5.o
+.PHONY : advanced_testcase4.o
 
 # target to build an object file
-simple_testcase5.c.o:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/simple_testcase5.c.o
-.PHONY : simple_testcase5.c.o
+advanced_testcase4.c.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/advanced_testcase4.c.o
+.PHONY : advanced_testcase4.c.o
 
-simple_testcase5.i: simple_testcase5.c.i
+advanced_testcase4.i: advanced_testcase4.c.i
 
-.PHONY : simple_testcase5.i
+.PHONY : advanced_testcase4.i
 
 # target to preprocess a source file
-simple_testcase5.c.i:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/simple_testcase5.c.i
-.PHONY : simple_testcase5.c.i
+advanced_testcase4.c.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/advanced_testcase4.c.i
+.PHONY : advanced_testcase4.c.i
 
-simple_testcase5.s: simple_testcase5.c.s
+advanced_testcase4.s: advanced_testcase4.c.s
 
-.PHONY : simple_testcase5.s
+.PHONY : advanced_testcase4.s
 
 # target to generate assembly for a file
-simple_testcase5.c.s:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/simple_testcase5.c.s
-.PHONY : simple_testcase5.c.s
+advanced_testcase4.c.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/advanced_testcase4.c.s
+.PHONY : advanced_testcase4.c.s
 
 tuple.o: tuple.c.o
 
@@ -246,9 +246,9 @@ help:
 	@echo "... AVLTree.o"
 	@echo "... AVLTree.i"
 	@echo "... AVLTree.s"
-	@echo "... simple_testcase5.o"
-	@echo "... simple_testcase5.i"
-	@echo "... simple_testcase5.s"
+	@echo "... advanced_testcase4.o"
+	@echo "... advanced_testcase4.i"
+	@echo "... advanced_testcase4.s"
 	@echo "... tuple.o"
 	@echo "... tuple.i"
 	@echo "... tuple.s"

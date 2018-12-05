@@ -57,18 +57,18 @@ include CMakeFiles/HW4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HW4.dir/flags.make
 
-CMakeFiles/HW4.dir/simple_testcase5.c.o: CMakeFiles/HW4.dir/flags.make
-CMakeFiles/HW4.dir/simple_testcase5.c.o: ../simple_testcase5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/UW-Madison/CS 537 OS/HW4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HW4.dir/simple_testcase5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW4.dir/simple_testcase5.c.o   -c "/cygdrive/d/UW-Madison/CS 537 OS/HW4/simple_testcase5.c"
+CMakeFiles/HW4.dir/advanced_testcase4.c.o: CMakeFiles/HW4.dir/flags.make
+CMakeFiles/HW4.dir/advanced_testcase4.c.o: ../advanced_testcase4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/UW-Madison/CS 537 OS/HW4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HW4.dir/advanced_testcase4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW4.dir/advanced_testcase4.c.o   -c "/cygdrive/d/UW-Madison/CS 537 OS/HW4/advanced_testcase4.c"
 
-CMakeFiles/HW4.dir/simple_testcase5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW4.dir/simple_testcase5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/UW-Madison/CS 537 OS/HW4/simple_testcase5.c" > CMakeFiles/HW4.dir/simple_testcase5.c.i
+CMakeFiles/HW4.dir/advanced_testcase4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW4.dir/advanced_testcase4.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/UW-Madison/CS 537 OS/HW4/advanced_testcase4.c" > CMakeFiles/HW4.dir/advanced_testcase4.c.i
 
-CMakeFiles/HW4.dir/simple_testcase5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW4.dir/simple_testcase5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/UW-Madison/CS 537 OS/HW4/simple_testcase5.c" -o CMakeFiles/HW4.dir/simple_testcase5.c.s
+CMakeFiles/HW4.dir/advanced_testcase4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW4.dir/advanced_testcase4.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/UW-Madison/CS 537 OS/HW4/advanced_testcase4.c" -o CMakeFiles/HW4.dir/advanced_testcase4.c.s
 
 CMakeFiles/HW4.dir/537malloc.c.o: CMakeFiles/HW4.dir/flags.make
 CMakeFiles/HW4.dir/537malloc.c.o: ../537malloc.c
@@ -111,7 +111,7 @@ CMakeFiles/HW4.dir/tuple.c.s: cmake_force
 
 # Object files for target HW4
 HW4_OBJECTS = \
-"CMakeFiles/HW4.dir/simple_testcase5.c.o" \
+"CMakeFiles/HW4.dir/advanced_testcase4.c.o" \
 "CMakeFiles/HW4.dir/537malloc.c.o" \
 "CMakeFiles/HW4.dir/AVLTree.c.o" \
 "CMakeFiles/HW4.dir/tuple.c.o"
@@ -119,7 +119,7 @@ HW4_OBJECTS = \
 # External object files for target HW4
 HW4_EXTERNAL_OBJECTS =
 
-HW4.exe: CMakeFiles/HW4.dir/simple_testcase5.c.o
+HW4.exe: CMakeFiles/HW4.dir/advanced_testcase4.c.o
 HW4.exe: CMakeFiles/HW4.dir/537malloc.c.o
 HW4.exe: CMakeFiles/HW4.dir/AVLTree.c.o
 HW4.exe: CMakeFiles/HW4.dir/tuple.c.o

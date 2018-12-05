@@ -9,9 +9,9 @@ CMakeFiles/HW4.dir/AVLTree.c.o: ../AVLTree.c
 CMakeFiles/HW4.dir/AVLTree.c.o: ../AVLTree.h
 CMakeFiles/HW4.dir/AVLTree.c.o: ../tuple.h
 
-CMakeFiles/HW4.dir/simple_testcase5.c.o: ../537malloc.h
-CMakeFiles/HW4.dir/simple_testcase5.c.o: ../simple_testcase5.c
-CMakeFiles/HW4.dir/simple_testcase5.c.o: ../tuple.h
+CMakeFiles/HW4.dir/advanced_testcase4.c.o: ../537malloc.h
+CMakeFiles/HW4.dir/advanced_testcase4.c.o: ../advanced_testcase4.c
+CMakeFiles/HW4.dir/advanced_testcase4.c.o: ../tuple.h
 
 CMakeFiles/HW4.dir/tuple.c.o: ../tuple.c
 CMakeFiles/HW4.dir/tuple.c.o: ../tuple.h

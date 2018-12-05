@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/d/UW-Madison/CS 537 OS/HW4/537malloc.c" "/cygdrive/d/UW-Madison/CS 537 OS/HW4/cmake-build-debug/CMakeFiles/HW4.dir/537malloc.c.o"
   "/cygdrive/d/UW-Madison/CS 537 OS/HW4/AVLTree.c" "/cygdrive/d/UW-Madison/CS 537 OS/HW4/cmake-build-debug/CMakeFiles/HW4.dir/AVLTree.c.o"
-  "/cygdrive/d/UW-Madison/CS 537 OS/HW4/simple_testcase5.c" "/cygdrive/d/UW-Madison/CS 537 OS/HW4/cmake-build-debug/CMakeFiles/HW4.dir/simple_testcase5.c.o"
+  "/cygdrive/d/UW-Madison/CS 537 OS/HW4/advanced_testcase4.c" "/cygdrive/d/UW-Madison/CS 537 OS/HW4/cmake-build-debug/CMakeFiles/HW4.dir/advanced_testcase4.c.o"
   "/cygdrive/d/UW-Madison/CS 537 OS/HW4/tuple.c" "/cygdrive/d/UW-Madison/CS 537 OS/HW4/cmake-build-debug/CMakeFiles/HW4.dir/tuple.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

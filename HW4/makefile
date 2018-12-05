@@ -1,14 +1,14 @@
 CC = gcc
 WARNING_FLAGS = -g -Wall -Wextra
-EXE = simple_testcase1
+EXE = output
 
 SCAN_BUILD_DIR = scan-build-out
 
-all: simple_testcase1.o 537malloc.o AVLTree.o tuple.o
-	$(CC) -o $(EXE) simple_testcase1.o 537malloc.o AVLTree.o tuple.o
+all: 537malloc.o AVLTree.o tuple.o obj
+	$(CC) -o $(EXE) 537malloc.o AVLTree.o tuple.o obj
 
-simple_testcase1.o: simple_testcase1.c 537malloc.h
-	$(CC) $(WARNING_FLAGS) -c simple_testcase1.c
+obj: 537malloc.o AVLTree.o tuple.o
+
 
 537malloc.o: 537malloc.c AVLTree.h tuple.h
 	$(CC) $(WARNING_FLAGS)  -c 537malloc.c

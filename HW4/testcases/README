@@ -1,0 +1,36 @@
+simple_testcase1: Test basic funtionality of malloc537, free537, memcheck537
+
+simple_testcase2: Allocating memory of size 0
+	-> Your program is expected to throw a warning and continue execution for malloc537(0)
+
+simple_testcase3: Trying to free a wrong address
+	-> Your program should throw error and exit, when trying to free a memory location
+
+simple_testcase4: Freeing an already freed pointer (Double free)
+
+simple_testcase5: Allocating a memory and then reallocating for a bigger size
+
+error_testcase1: Freeing NULL pointer
+	-> Your program should throw error and exit, when freeing NULL pointer
+
+error_testcase2: Freeing an allocated address but not a start address
+	-> Your program should throw error and exit, saying not a start/invalid address
+
+error_testcase3: Memcheck a wrong address
+	-> Your program should throw error and exit, saying invalid address
+
+error_testcase4: Freeing an allocated address but not a start address - similar to error_testcase2
+	-> Your program should throw error and exit, saying not a start/invalid adddress
+
+advanced_testcase1: Sequentially allocate (1 byte), memcheck & free - 1,000,000 iterations
+	-> Your program should not break or throw any errors. If you have implemented balanced trees, then the operations are expected to take less time. If not, it will take very long time to complete. Be cautious while testing this test case.
+
+advanced_testcase2: Randomly allocation - Random size - Allocate & Free - 1,000,000 iterations
+	-> Your program should not break or throw any errors. Same as above test case, if balanced tree is implemented, the operations should take less time. Be cautious while testing this test case.
+
+advanced_testcase3: Allocate and reallocate for 0 bytes
+	-> Your program is expected to show a warning and continue with execution.
+
+advanced_testcase4: Allocate n bytes of memory & then reallocate random sizes for 100 iterations
+	-> Your program is expected to complete successfully.
+

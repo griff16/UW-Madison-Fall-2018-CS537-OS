@@ -1,12 +1,1 @@
-simple_testcase1: Test basic funtionality of malloc537, free537, memcheck537
-
-simple_testcase2: Allocating memory of size 0
-	-> Your program is expected to throw a warning and continue execution for malloc537(0)
-	-> But when trying to free the pointer, program should throw error and exit
-
-simple_testcase3: Trying to free a wrong address
-	-> You program should throw error and exit, when trying to free a memory location
-
-simple_testcase4: Freeing an already freed pointer (Double free)
-
-simple_testcase5: Allocating a memory and then reallocating for a bigger size
+README fileIncluded:All source files (.c, .h)This README MakefileAuthors: Alexandra Maas, 9073795388, amaas4@wisc.edu; Griff Zhang 9078214609, xzhang953@wisc.eduCS Lab Machine: royal-01.cs@wisc.eduProgram #4: safe/malloc free libraryTo begin creating this program we created a tuple structure with parameters including a pointer to its address space, its address length, structures pointing to the tuple to the left and right of the current tuple. The tuple c file initializes a tuple given a tuple pointer and its length, makes a copy of a tuple, and freeing the memory of a tuple. The primary functions of the AVL Tree c file is insertTuple which utilizes the functions getBalance and getHeight to ensure the left and right subtrees do not have a height difference greater than one and maintains the balance factor. Additionally, lower addresses are in the left subtree and higher addresses in the right subtree. In malloc537 we begin by initializing the tuple and then inserting it with insertTuple into the AVL tree. Memcheck537 (memHelper), Realloc537(reallocHelper), and free537 (freeHelper)  use recursion to iterate through the AVLTree to find the correct tuple.

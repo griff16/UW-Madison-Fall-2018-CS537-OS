@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HW4.dir/simple_testcase5.c.o"
+  "CMakeFiles/HW4.dir/advanced_testcase4.c.o"
   "CMakeFiles/HW4.dir/537malloc.c.o"
   "CMakeFiles/HW4.dir/AVLTree.c.o"
   "CMakeFiles/HW4.dir/tuple.c.o"

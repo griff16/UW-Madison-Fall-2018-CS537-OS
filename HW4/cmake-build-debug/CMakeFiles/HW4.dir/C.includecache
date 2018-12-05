@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/UW-Madison/CS 537 OS/HW4/537malloc.h
+/cygdrive/d/UW-Madison/CS 537 OS/HW4/537malloc.c
 stdlib.h
+-
+stdio.h
+-
+string.h
 -
 tuple.h
 /cygdrive/d/UW-Madison/CS 537 OS/HW4/tuple.h
+AVLTree.h
+/cygdrive/d/UW-Madison/CS 537 OS/HW4/AVLTree.h
 
-/cygdrive/d/UW-Madison/CS 537 OS/HW4/simple_testcase5.c
-stdio.h
--
-537malloc.h
-/cygdrive/d/UW-Madison/CS 537 OS/HW4/537malloc.h
+/cygdrive/d/UW-Madison/CS 537 OS/HW4/AVLTree.h
+tuple.h
+/cygdrive/d/UW-Madison/CS 537 OS/HW4/tuple.h
 
 /cygdrive/d/UW-Madison/CS 537 OS/HW4/tuple.h
 stdlib.h
